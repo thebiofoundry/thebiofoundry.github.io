@@ -657,3 +657,22 @@ body {
     }
   }
 }
+.container-locked{
+  padding-left: 130px;
+  padding-right: 130px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.modal-imgwide{
+ max-width: 750px;
+}
+@media (max-width: 768px) {
+  .modal-imgwide{
+    max-width:400px ;  
+  }
+}
+@media (max-width: 992px) {
+  .modal-imgwide {
+    max-width: 400px ;
+  }
+}
