@@ -1,14 +1,9 @@
-<section id="download" class="download bg-primary text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h2 class="section-heading"><i class="fa fa-flask"></i> Research</h2>
-                <br>
-                <p>Innovation does not believe in academic borders. Neither do we! We use insights and methodologies from a variety of scientific and technological domains to meet our objectives.</p>
-            </div>
-        </div>
-    </div>
-</section>
+---
+layout: page
+permalink: /research/
+title: Research
+description: Innovation does not believe in academic borders. Neither do we! We use insights and methodologies from a variety of scientific and technological domains to meet our objectives.
+---
 
 <section id="why">
     <div class="container">
