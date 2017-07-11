@@ -668,11 +668,36 @@ body {
 }
 @media (max-width: 768px) {
   .modal-imgwide{
-    max-width:400px ;  
+    max-width:400px ; 
+
+  }
+  .modal-imgtall{
+    max-height: 600px;
+  }
+  .modal-member{
+    vertical-align: middle;
+  }
+  .img-reponsive{
+    vertical-align:   middle;
+    margin:auto;
   }
 }
 @media (max-width: 992px) {
   .modal-imgwide {
     max-width: 400px ;
   }
+  .modal-txt{
+    clear:both;
+  }
+  .modal-imgtall{
+    max-height: 600px;
+  }
+  .modal-member{
+    vertical-align: middle;
+  }
+  .img-reponsive{
+    vertical-align: middle;
+    margin: auto;
+  }
+
 }
