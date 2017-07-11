@@ -34,6 +34,16 @@ a {
     color: #fcbd20;
   }
 }
+.awrapper{
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: $theme-primary;
+  &:hover, &:focus {
+    color: #fcbd20;
+  }
+}
+
 
 hr {
   max-width: 100px;
