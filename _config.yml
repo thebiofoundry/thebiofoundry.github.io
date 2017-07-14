@@ -46,3 +46,9 @@ collections:
   members:
     output: true
     permalink: /members/:path/
+  partners: 
+    output: true
+    permalink: /partners/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
