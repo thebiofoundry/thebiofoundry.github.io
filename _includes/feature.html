@@ -36,8 +36,27 @@
                     <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
                     <h3>Made with Love</h3>
                     <p class="text-muted">You have to make your websites with love these days!</p>
+
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="container">
+    <div class="row">
+    {% for partner in site.partners %}
+    {% if partner.status == 'Current' %}
+        <a href="{{ partner.url | prepend: site.baseurl | prepend: site.url }}"> 
+            <figure>
+                <img src="{{ partner.img | prepend: site.baseurl | prepend: site.url }}">
+                <figcaption>    
+                <b> {{ partner.title }} </b>
+                <p><small>{{ partner.program }} | since {{ partner.year_start }} </small></p>
+                </figcaption>
+            </figure>
+        </a>
+    {% endif %}
+    {% endfor %}
+    </div>
+</div>
 </section>
