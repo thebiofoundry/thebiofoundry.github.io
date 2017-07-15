@@ -1,8 +1,8 @@
 ---
 layout: member
-title: Carmen Bayly
-description: >
-  Graduate Student, Genome Sciences and Technology
+weight: 100
+title: Sandip V. Pawara
+description: MITACS Accelerate Post-doctoral Fellow
 img: /img/members/vgyadav.jpg
 program: BASc
 status: Current

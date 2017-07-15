@@ -1,5 +1,6 @@
 ---
 layout: member
+weight: 100
 title: Sonal Ayakar
 description: >
   Graduate Student, Cheimcal and Biological Engineering

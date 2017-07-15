@@ -1,5 +1,6 @@
 ---
 layout: member
+weight: 100
 title: Ngai To Lo
 description: Undergraduate
 img: /img/members/vgyadav.jpg

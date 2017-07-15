@@ -1,5 +1,6 @@
 ---
 layout: member
+weight: 100 
 title: Athanasios Kritharis
 description: undergraduate
 img: /img/members/vgyadav.jpg

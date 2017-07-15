@@ -1,5 +1,6 @@
 ---
 layout: member
+weight: 100
 title: Maryam Kabiri
 description: >
   Post-doctoral Fellow, Biomaterials

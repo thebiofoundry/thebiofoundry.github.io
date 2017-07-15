@@ -1,8 +1,9 @@
 ---
 layout: member
-title: Michael Robes
+weight: 200
+title: Carmen Bayly
 description: >
-  Scholar in residence
+  Graduate Student, Genome Sciences and Technology
 img: /img/members/vgyadav.jpg
 program: BASc
 status: Current

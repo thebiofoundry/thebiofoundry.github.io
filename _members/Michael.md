@@ -1,7 +1,9 @@
 ---
 layout: member
-title: Sandip V. Pawara
-description: MITACS Accelerate Post-doctoral Fellow
+weight: 100
+title: Michael Robes
+description: >
+  Scholar in residence
 img: /img/members/vgyadav.jpg
 program: BASc
 status: Current

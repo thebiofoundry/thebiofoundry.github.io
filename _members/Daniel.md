@@ -1,5 +1,6 @@
 ---
 layout: member
+weight: 100
 title: Daniel Korvin
 description: >
   Research Associate, Metabolic Engineering
