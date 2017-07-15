@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Ngai To Lo
-description: Ngai To
+description: Undergraduate
 img: /img/members/vgyadav.jpg
 program: BASc
 status: Current

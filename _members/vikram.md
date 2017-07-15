@@ -1,8 +1,11 @@
 ---
 layout: member
-title: Athanasios Kritharis
-description: undergraduate
+title: Vikram G. Yadav
+description: Principal investigator
 img: /img/members/vgyadav.jpg
+education: >
+  Ph.D., Massachusetts Institute of Technology (2013) \n B.A.Sc., University of Waterloo (2007)
+
 program: BASc
 status: Current
 year_end: 
@@ -14,4 +17,6 @@ project: >
   Summer 2017 NSERC USRA project on machine learning and process control.
 linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
 homepage: http://www.siang.ca 
+tags: [featured]
+featuredOrder: 1
 ---
