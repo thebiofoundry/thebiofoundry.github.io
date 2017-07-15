@@ -1,8 +1,8 @@
 ---
 layout: member
-title: Ngai To Lo
-description: Ngai To
-img: /img/members/vgyadav.jpg
+title: nike
+description: is a is a shoe company
+img: /img/partners/partner2.svg
 program: BASc
 status: Current
 year_end: 
