@@ -1,0 +1,24 @@
+<section id="why">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Partnerships</h2>
+                <hr class="primary">
+                <br />
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        {% for partner in site.partners %}
+        <div class="media">
+          <div class="media-left">
+            <a href="{{partner.link}}" target="_blank"><img src="{{ partner.img | prepend: site.baseurl | prepend: site.url }}" class="media-object"></a>
+          </div>
+          <div class="media-body">
+            <h3 class="media-heading">{{partner.title}}</h3>
+            <p>{{partner.description}}</p>
+          </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

@@ -25,7 +25,7 @@ description: Innovation does not believe in academic borders. Neither do we! We 
                 <br>
                 <div class="list-group">
                     <h3 class="list-group-item"><b>Research Themes</b></h3>
-                    <button type="button" class="list-group-item" data-toggle="modal" data-target="#bioFuels">The Next Generation of Biofuels</a></button>
+                    <button type="button" class="list-group-item" data-toggle="modal" data-target="#bioFuels">The Next Generation of Biofuels</button>
                     <button type="button" class="list-group-item">Better Chemistry for Synthesis of Better Drugs</button>
                     <button type="button" class="list-group-item">Biocatalysis for the Biorefinery</button>
                     <button type="button" class="list-group-item">Drug Delivery &amp; Formulations</button>

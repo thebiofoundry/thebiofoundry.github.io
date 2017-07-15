@@ -1,0 +1,58 @@
+<section id="portfolio" class="download bg-primary text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2 class="section-heading">Research Highlights</h2>
+                <h3>We are bio-catalyzing our post-petroleum future!</h3>
+                <hr>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="no-padding" id="portfolio">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            {% for project in site.projects %}
+            <!-- A research line -->
+            <div class="col-lg-4 col-sm-6" data-toggle="modal" data-target="#{{project.title | remove: ' '}}">
+                <div class="portfolio-box">
+                    <img src="/img/portfolio/1.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                {{project.title}}
+                            </div>
+                            <div class="project-name">
+                                {{project.description}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+ <!-- Modal -->
+<div id="{{project.title | remove: ' '}}" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">{{project.modal_title}}</h4>
+      </div>
+      <div class="modal-body">
+      <img src="{{project.modal_image}}" class="modal-imgwide img-responsive" >
+        <p class="modal-txt">{{project.modal_text}}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endfor %}
+ </div>
+</div>
+</section>

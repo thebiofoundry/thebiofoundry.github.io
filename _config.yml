@@ -1,5 +1,5 @@
 # Site settings
-title: The Biofoundry
+title: The BioFoundry
 email: vikramaditya.yadav@ubc.ca
 description: The Biofoundry
 
@@ -18,11 +18,11 @@ disqus_account:
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
   - title: twitter
-    url: https://twitter.com/lantoniotrento
+    url: http://twitter.com/biofoundry
   - title: facebook
-    url: https://facebook.com/lantoniotrento
+    url: https://www.facebook.com/biofoundry
   - title: google-plus
-    url: https://plus.google.com/+AntoniotrentoIt
+    url: http://plus.google.com/u/0/b/118283831844760263482/118283831844760263482
   #- title: github
   #  url: http://github.com/jekyll
 
