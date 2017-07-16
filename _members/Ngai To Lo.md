@@ -3,7 +3,7 @@ layout: member
 weight: 100
 title: Ngai To Lo
 description: Undergraduate
-img: /img/members/vgyadav.jpg
+img: /img/members/ito.jpg
 program: BASc
 status: Current
 year_end: 
