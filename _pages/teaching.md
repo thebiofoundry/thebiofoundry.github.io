@@ -16,17 +16,23 @@ description: Innovation does not believe in academic borders. Neither do we! We 
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-12 text-left">
-                <h2><b>CHBE 455</b></h2>
-                <h3>Kinetics and Reactor Design</h3>
-                <p>Kinetics of homogeneous chemical and biological reactions, isothermal ideal reactor design, analysis of non-ideal reactors using residence time distribution and mixing models.</p>
-            </div>
-            <div class="col-lg-4 col-md-12 text-left">
-                <h3>Lectures</h3>
-                <h3>Office Hours</h3>
-                <h3>Resources</h3>
-            </div>            
+
+{% for teaching in site.teachings %}
+    <div class="row">
+        <div class="col-lg-8 col-md-12 text-left">
+            <h2><b>{{teaching.course-code}}</b></h2>
+            <h3>{{teaching.course-title}}</h3>
+            <p>{{teaching.description}}</p>
         </div>
+        <div class="col-lg-4 col-md-12 text-left">
+            <h3>Lectures</h3>
+            <h3>Office Hours</h3>
+            <h3>Resources</h3>
+        </div>            
     </div>
+{% endfor %}
+    
+
+</div>
+
 </section>

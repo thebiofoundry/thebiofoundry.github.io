@@ -9,20 +9,19 @@ description: Current members and alumni
 
 <br>
 <div class="container">
-	<div class="row">
+	<!-- <div class="row"> -->
 	{% for member in site.members %}
 	{% if member.status == 'Current' %}
-	    <a href="{{ member.url | prepend: site.baseurl | prepend: site.url }}"> 
-	        <figure>
-	            <img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}">
-	            <figcaption>    
+	<div class="col-md-3 col-sm-6">
+	    <!-- <a href="{{ member.url | prepend: site.baseurl | prepend: site.url }}">  -->
+	            <center><img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}"></center>
+	            <br>
 	            <b> {{ member.title }} </b>
-	            <p><small>{{ member.program }} | since {{ member.year_start }} </small></p>
-	            </figcaption>
-	        </figure>
-	    </a>
+	            <small>{{ member.program }} | since {{ member.year_start }} </small>
+	</div>
+	    <!-- </a> -->
 	{% endif %}
 	{% endfor %}
-	</div>
+	<!-- </div> -->
 </div>
 <br>

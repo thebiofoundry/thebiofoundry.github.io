@@ -1,5 +1,5 @@
-<section id="portfolio" class="download bg-primary text-center">
-    <div class="container">
+<section id="portfolio" class="download bg-primary text-center no-padding ">
+    <div class="container" >
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h2 class="section-heading">Research Highlights</h2>
@@ -8,16 +8,17 @@
             </div>
         </div>
     </div>
-</section>
+<!-- </section> -->
 
-<section class="no-padding" id="portfolio">
-    <div class="container-fluid">
-        <div class="row no-gutter">
+<!-- <section class="no-padding" id="portfolio" > -->
+    <div class="container-fluid research">
+        <a href="/research#main-space"><div class="row no-gutter" >
             {% for project in site.projects %}
             <!-- A research line -->
-            <div class="col-lg-4 col-sm-6" data-toggle="modal" data-target="#{{project.title | remove: ' '}}">
+            <div class="col-lg-4 col-sm-6" >
                 <div class="portfolio-box">
-                    <img src="{{project.front_image}}" class="img-responsive" alt="{{project.title}}" max-width="100%">
+                   <img src="{{project.front_image}}" class="img-responsive" alt="{{project.title}}" max-width="100%">
+                   
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
@@ -28,6 +29,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
 
@@ -53,6 +55,8 @@
   </div>
 </div>
 {% endfor %}
- </div>
+
+ </div></a>
+
 </div>
 </section>
