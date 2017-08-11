@@ -13,14 +13,16 @@ description: Current members and alumni
 	{% for member in site.members %}
 	{% if member.status == 'Current' %}
 	<div class="col-md-3 col-sm-6 member-block">
-	<div class= "pop-block" title="Dismissible popover" data-toggle="popover" data-trigger="focus" tabindex="0" data-placement = "bottom"  data-content="{{member.program}}">
-	            <center><img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img"></center>
-	</div>
-	            <br>
-	            <div class= "member-spacer">
-	            <b> {{ member.title }} </b> 
-	            <small>{{ member.program }} | since {{ member.year_start }} </small>
-	            </div>
+		<div class= "pop-block" title="<h2>{{ member.title }} </h2> " data-toggle="popover" data-trigger="focus" tabindex="0" data-placement = "bottom"  data-content="{{member.biography}}">
+		            <center>
+		            	<img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+		            </center>
+		</div>
+		            <br>
+		            <div class= "member-spacer">
+			            <b> {{ member.title }} </b> 
+			            <small>{{ member.program }} | since {{ member.year_start }} </small>
+		            </div>
 	</div>
 	{% endif %}
 	{% endfor %}
@@ -33,6 +35,6 @@ description: Current members and alumni
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
 $(document).ready(function(){
-    $('[data-toggle="popover"]').popover();   
+    $('[data-toggle="popover"]').popover({html: true});   
 });
 </script>
