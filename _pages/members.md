@@ -12,11 +12,15 @@ description: Current members and alumni
 	<!-- <div class="row"> -->
 	{% for member in site.members %}
 	{% if member.status == 'Current' %}
-	<div class="col-md-3 col-sm-6" style="height:161px; outline: none !important;" title="Dismissible popover" data-toggle="popover" data-trigger="focus" tabindex="0"  data-content="{{member.program}}" >
+	<div class="col-md-3 col-sm-6 member-block">
+	<div class= "pop-block" title="Dismissible popover" data-toggle="popover" data-trigger="focus" tabindex="0" data-placement = "bottom"  data-content="{{member.program}}">
 	            <center><img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img"></center>
+	</div>
 	            <br>
-	            <b> {{ member.title }} </b>
+	            <div class= "member-spacer">
+	            <b> {{ member.title }} </b> 
 	            <small>{{ member.program }} | since {{ member.year_start }} </small>
+	            </div>
 	</div>
 	{% endif %}
 	{% endfor %}

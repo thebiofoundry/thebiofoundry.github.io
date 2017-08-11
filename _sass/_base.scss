@@ -707,7 +707,32 @@ body {
    margin-left: 10%;
    margin-top: 2%;
  }
+ .member-block{
+  // position: static;
+  height:161px;
+  outline: none !important;
+  position: static;
+
+ }
  .member-img{
   border-radius:50%;
   border: 4px solid #7887AB;
  }
+ .popover{
+    // display: inline-block;
+    // border: 2px dotted red;
+    // position: inherit;
+    // top: 0px !important;
+    min-width: 255px;
+    min-height: 400px;
+ }
+ .arrow {
+      visibility: hidden;
+  }
+  .pop-block {
+    outline: none;
+    // margin-bottom: 20px;
+  }
+  .member-spacer{
+    padding-top: 3px;
+  }
