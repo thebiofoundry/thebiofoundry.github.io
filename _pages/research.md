@@ -33,13 +33,14 @@ description: Innovation does not believe in academic borders. Neither do we! We 
                     <button type="button" class="list-group-item">Biocatalysis for the Biorefinery</button>
                     <button type="button" class="list-group-item">Drug Delivery &amp; Formulations</button>
                     <button type="button" class="list-group-item">Fighting Malaria with Synthetic Biology</button>
-                    <button type="button" class="list-group-item" id= "Neuroengineering">Neuroengineering</button>
+                    <button type="button" onclick="Load3('{{site.projects[1].title}}')" class="list-group-item" id= "Neuroengineering"> Neuroengineering {{site.projects}}</button>
                     <button type="button" id="Biomanufacturing" class="list-group-item">Advanced Biomanufacturing</button>
                     <button type="button" class="list-group-item">Environmental Stewardship &amp; Bioremediation</button>   
                 </div>
             </div>            
         </div>
     </div>
+     Neuroengineering {{site.projects[1].title}}
 </section>
 
 <section id="why">
@@ -114,7 +115,7 @@ description: Innovation does not believe in academic borders. Neither do we! We 
         <p>Ethanol may be the world's most widely used biofuel for spark-ignition engines, but it is not a particularly good gasoline substitute. It is hygroscopic, corrosive to engines, has unfavourable fuel characteristics, and, above all, generates about a third less energy on a volumetric basis as compared to gasoline.</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</butqton>
       </div>
     </div>
 
@@ -124,7 +125,7 @@ description: Innovation does not believe in academic borders. Neither do we! We 
 <script type="text/javascript">
     var para = document.getElementById('responsive');
     var tab1 = document.getElementById('Biomanufacturing').onclick = function (){Load2()};
-    var tab2 = document.getElementById('Neuroengineering').onclick = function (){Load3()};
+    // var tab2 = document.getElementById('Neuroengineering').onclick = function (){Load3()};
 
     // function Load1(){
     //     para.innerHTML = "Ethanol may be the world's most widely used biofuel for spark-ignition engines, but it is not a particularly good gasoline substitute. It is hygroscopic, corrosive to engines, has unfavourable fuel characteristics, and, above all, generates about a third less energy on a volumetric basis as compared to gasoline."
@@ -134,10 +135,13 @@ description: Innovation does not believe in academic borders. Neither do we! We 
         para.innerHTML = "Natural product biosynthetic pathways typically consist of a large number of reactions that are controlled by failry complex regulatory mechanisms. For instance, although there is no consensus regarding the exact number of reactions in the biosynthesis of the blockbuster anti-cancer drug paclitaxel, it is generall agreed that teaxadiene";
         para.style.fontSize = "18px";
     }
-    function Load3 (){
-        para.innerHTML = "{{page.header_text}}";
+    function Load3 (tdata){
+        console.log(typeof(tdata));
+        console.log(tdata);
+        para.innerHTML = tdata;
         para.style.fontSize = "18px";
         console.log("what ");
+        console.log(tdata);
     }
 
 </script>
