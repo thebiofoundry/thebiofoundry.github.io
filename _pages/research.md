@@ -17,7 +17,7 @@ description: Innovation does not believe in academic borders. Neither do we! We 
                 <img class="img-responsive" src="/img/sustainable-ideas.jpg">
             </div>
             <div class="col-lg-8 col-md-12 text-left">
-                <div id="reponsive">
+                <div id="responsive">
                     <h3>Research</h3>
                     <p>The oil industry has provided society with great wealth and power, fuel and energy, and materials and medicines for over 150 years. No force has shaped human society quite like oil has. But then again, neither has any other industry had as deleterious an impact on the environment.</p>
                     <p>Carbon dioxide released by the combustion of oil products has turned the planet into a sweltering greenhouse. Oceans are warming and glaciers are melting away, causing sea levels to rise, and if this trend persists, human settlements in low-lying coastal areas could soon be inundated with sea water.</p>
@@ -25,7 +25,6 @@ description: Innovation does not believe in academic borders. Neither do we! We 
                 </div>
             </div>
             <div class="col-lg-4 col-md-12 text-left">
-                
                 <br>
                 <div class="list-group">
                     <h3 class="list-group-item"><b>Research Themes</b></h3>
@@ -34,8 +33,8 @@ description: Innovation does not believe in academic borders. Neither do we! We 
                     <button type="button" class="list-group-item">Biocatalysis for the Biorefinery</button>
                     <button type="button" class="list-group-item">Drug Delivery &amp; Formulations</button>
                     <button type="button" class="list-group-item">Fighting Malaria with Synthetic Biology</button>
-                    <button type="button" class="list-group-item">Neuroengineering</button>
-                    <button type="button" class="list-group-item">Advanced Biomanufacturing</button>
+                    <button type="button" class="list-group-item" id= "Neuroengineering">Neuroengineering</button>
+                    <button type="button" id="Biomanufacturing" class="list-group-item">Advanced Biomanufacturing</button>
                     <button type="button" class="list-group-item">Environmental Stewardship &amp; Bioremediation</button>   
                 </div>
             </div>            
@@ -57,14 +56,14 @@ description: Innovation does not believe in academic borders. Neither do we! We 
 <div class="container">
     <div class="row">
         <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
+            <div class="service-box" id= "bioFuels">
                 <i class="fa fa-4x fa-bolt wow bounceIn text-primary"></i>
                 <h3>Global Warming</h3>
                 <p class="text-muted">Our templates are updated regularly so they don't break.</p>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
+            <div class="service-box" >
                 <i class="fa fa-4x fa-life-ring wow bounceIn text-primary" data-wow-delay=".1s"></i>
                 <h3>Rising Seas</h3>
                 <p class="text-muted">You can use this theme as is, or you can make changes!</p>
@@ -121,3 +120,24 @@ description: Innovation does not believe in academic borders. Neither do we! We 
 
   </div>
 </div>
+
+<script type="text/javascript">
+    var para = document.getElementById('responsive');
+    var tab1 = document.getElementById('Biomanufacturing').onclick = function (){Load2()};
+    var tab2 = document.getElementById('Neuroengineering').onclick = function (){Load3()};
+
+    // function Load1(){
+    //     para.innerHTML = "Ethanol may be the world's most widely used biofuel for spark-ignition engines, but it is not a particularly good gasoline substitute. It is hygroscopic, corrosive to engines, has unfavourable fuel characteristics, and, above all, generates about a third less energy on a volumetric basis as compared to gasoline."
+    // }
+
+    function Load2(){
+        para.innerHTML = "Natural product biosynthetic pathways typically consist of a large number of reactions that are controlled by failry complex regulatory mechanisms. For instance, although there is no consensus regarding the exact number of reactions in the biosynthesis of the blockbuster anti-cancer drug paclitaxel, it is generall agreed that teaxadiene";
+        para.style.fontSize = "18px";
+    }
+    function Load3 (){
+        para.innerHTML = "{{page.header_text}}";
+        para.style.fontSize = "18px";
+        console.log("what ");
+    }
+
+</script>
