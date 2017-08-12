@@ -1,5 +1,5 @@
 ---
-title: genomic circuits
+title: Biocatalysis for the Biorefinery
 description: We make circuits cuz they work
 long_desc: >
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

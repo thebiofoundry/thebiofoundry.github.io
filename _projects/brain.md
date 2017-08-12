@@ -1,5 +1,5 @@
 ---
-title: brain
+title: Neuroengineering
 description: We make brais cuz they work
 long_desc: >
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

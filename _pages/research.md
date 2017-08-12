@@ -28,19 +28,21 @@ description: Innovation does not believe in academic borders. Neither do we! We 
                 <br>
                 <div class="list-group">
                     <h3 class="list-group-item"><b>Research Themes</b></h3>
-                    <button type="button" class="list-group-item" data-toggle="modal" data-target="#bioFuels">The Next Generation of Biofuels</button>
+                    <!-- <button type="button" class="list-group-item" onclick="loadData('{{site.projects[0].title}}')" >The Next Generation of Biofuels</button>
                     <button type="button" class="list-group-item">Better Chemistry for Synthesis of Better Drugs</button>
                     <button type="button" class="list-group-item">Biocatalysis for the Biorefinery</button>
                     <button type="button" class="list-group-item">Drug Delivery &amp; Formulations</button>
                     <button type="button" class="list-group-item">Fighting Malaria with Synthetic Biology</button>
-                    <button type="button" onclick="Load3('{{site.projects[1].title}}')" class="list-group-item" id= "Neuroengineering"> Neuroengineering {{site.projects}}</button>
+                    <button type="button"  class="list-group-item" id= "Neuroengineering"> Neuroengineering </button>
                     <button type="button" id="Biomanufacturing" class="list-group-item">Advanced Biomanufacturing</button>
-                    <button type="button" class="list-group-item">Environmental Stewardship &amp; Bioremediation</button>   
+                    <button type="button" class="list-group-item">Environmental Stewardship &amp; Bioremediation</button>    -->
+                    {% for project in site.projects %}
+                      <button type="button" class="list-group-item" onclick="loadData('{{project.title}}')" >{{project.title}}</button>
+                    {% endfor %}
                 </div>
             </div>            
         </div>
     </div>
-     Neuroengineering {{site.projects[1].title}}
 </section>
 
 <section id="why">
@@ -101,47 +103,14 @@ description: Innovation does not believe in academic borders. Neither do we! We 
 
 
 
-<!-- Modal -->
-<div id="bioFuels" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h2 class="modal-title"><b>The Next Generation of Biofuels</b></h2>
-      </div>
-      <div class="modal-body">
-        <p>Ethanol may be the world's most widely used biofuel for spark-ignition engines, but it is not a particularly good gasoline substitute. It is hygroscopic, corrosive to engines, has unfavourable fuel characteristics, and, above all, generates about a third less energy on a volumetric basis as compared to gasoline.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</butqton>
-      </div>
-    </div>
-
-  </div>
-</div>
-
 <script type="text/javascript">
     var para = document.getElementById('responsive');
-    var tab1 = document.getElementById('Biomanufacturing').onclick = function (){Load2()};
-    // var tab2 = document.getElementById('Neuroengineering').onclick = function (){Load3()};
-
-    // function Load1(){
-    //     para.innerHTML = "Ethanol may be the world's most widely used biofuel for spark-ignition engines, but it is not a particularly good gasoline substitute. It is hygroscopic, corrosive to engines, has unfavourable fuel characteristics, and, above all, generates about a third less energy on a volumetric basis as compared to gasoline."
-    // }
-
-    function Load2(){
-        para.innerHTML = "Natural product biosynthetic pathways typically consist of a large number of reactions that are controlled by failry complex regulatory mechanisms. For instance, although there is no consensus regarding the exact number of reactions in the biosynthesis of the blockbuster anti-cancer drug paclitaxel, it is generall agreed that teaxadiene";
+    
+    function loadData (data){
+        console.log(typeof(data));
+        console.log(data);
+        para.innerHTML = data;
         para.style.fontSize = "18px";
-    }
-    function Load3 (tdata){
-        console.log(typeof(tdata));
-        console.log(tdata);
-        para.innerHTML = tdata;
-        para.style.fontSize = "18px";
-        console.log("what ");
-        console.log(tdata);
     }
 
 </script>
