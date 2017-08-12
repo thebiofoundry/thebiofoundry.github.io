@@ -1,5 +1,5 @@
 ---
-title: terpanoids
+title: Better Chemistry for Synthesis of Better Drugs
 description: We make terps cuz they work
 long_desc: >
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

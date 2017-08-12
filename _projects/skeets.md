@@ -1,5 +1,5 @@
 ---
-title: mosquitos
+title: Fighting Malaria with Synthetic Biology
 description: We dont make   mosquitos cuz they work
 long_desc: >
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
