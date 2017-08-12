@@ -7,15 +7,6 @@ description: Innovation does not believe in academic borders. Neither do we! We 
 
 <section id="why">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Teaching</h2>
-                <hr class="primary">
-                <br />
-            </div>
-        </div>
-    </div>
-    <div class="container">
 
 {% for teaching in site.teachings %}
     <div class="row">
