@@ -55,3 +55,4 @@ collections:
   teachings:
     output: true
     permalink: /teachings/:path/
+  
