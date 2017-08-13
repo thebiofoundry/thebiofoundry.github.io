@@ -756,3 +756,26 @@ body {
    .modal-backdrop {
    background-color: transparent;
 }
+
+
+.red
+{
+  background-color:red;
+}
+ 
+.blue
+{
+  background-color:blue;
+  position:relative;// so that .modal & .modal-backdrop gets positioned relative to it
+}
+ 
+.block
+{
+  width:100%;
+  height:200px;
+}
+ 
+.modal, .modal-backdrop {
+    position: absolute !important;
+    // position: relative;
+}
