@@ -55,3 +55,6 @@ collections:
   teachings:
     output: true
     permalink: /teachings/:path/
+  outreach:
+    output: true
+    permalink: /outreach/:path/

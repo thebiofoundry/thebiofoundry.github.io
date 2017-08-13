@@ -16,7 +16,7 @@ description: Innovation does not believe in academic borders. Neither do we! We 
             <div class="col-lg-4 col-md-12 text-left">
                 <img class="img-responsive" src="/img/sustainable-ideas.jpg">
             </div>
-            <div class="col-lg-8 col-md-12 text-left">
+            <div class="col-lg-8 col-md-8 text-left">
                 <div id="responsive">
                     <h3>Research</h3>
                     <p>The oil industry has provided society with great wealth and power, fuel and energy, and materials and medicines for over 150 years. No force has shaped human society quite like oil has. But then again, neither has any other industry had as deleterious an impact on the environment.</p>
@@ -24,9 +24,9 @@ description: Innovation does not believe in academic borders. Neither do we! We 
                     <p>A warming world also threatens to unleash infectious diseases like never before. Unfortunately, though, antibiotic resistance is on the rise. Some microorganisms have already developed resistance to multiple drugs, and fewer antimicrobial drugs are being approved for use each year.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12 text-left">
+            <div class="col-lg-4 col-md-4 text-left">
                 <br>
-                <div class="list-group">
+                <div class="list-group research-large">
                     <button  type="button" class="list-group-item" onclick="loadData('<h3>Research</h3>                    <p>The oil industry has provided society with great wealth and power, fuel and energy, and materials and medicines for over 150 years. No force has shaped human society quite like oil has. But then again, neither has any other industry had as deleterious an impact on the environment.</p>                    <p>Carbon dioxide released by the combustion of oil products has turned the planet into a sweltering greenhouse. Oceans are warming and glaciers are melting away, causing sea levels to rise, and if this trend persists, human settlements in low-lying coastal areas could soon be inundated with sea water.</p>                   <p>A warming world also threatens to unleash infectious diseases like never before. Unfortunately, though, antibiotic resistance is on the rise. Some microorganisms have already developed resistance to multiple drugs, and fewer antimicrobial drugs are being approved for use each year.</p>')" ><h3 ><b>Research Themes</b></h3>
                     </button>
                     <!-- <button type="button" class="list-group-item" onclick="loadData('{{site.projects[0].title}}')" >The Next Generation of Biofuels</button>
@@ -42,6 +42,15 @@ description: Innovation does not believe in academic borders. Neither do we! We 
                     {% endfor %}
                 </div>
             </div>            
+        </div>
+    </div>
+    <div class="research-small">
+        <div class="container">
+            {% for project in site.projects %}
+                <img src="{{project.front_image}}" class="img-responsive" alt="{{project.title}}" max-width="100%">
+                <h1>{{project.title}}</h1>
+                <p>{{project.long_desc}}</p>
+            {% endfor %}
         </div>
     </div>
 </section>
