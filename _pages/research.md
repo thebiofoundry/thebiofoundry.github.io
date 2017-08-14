@@ -38,7 +38,7 @@ description: Innovation does not believe in academic borders. Neither do we! We 
                     <button type="button" id="Biomanufacturing" class="list-group-item">Advanced Biomanufacturing</button>
                     <button type="button" class="list-group-item">Environmental Stewardship &amp; Bioremediation</button>    -->
                     {% for project in site.projects %}
-                      <button type="button" class="list-group-item" onclick="loadData('{{project.long_desc}}')" >{{project.title}}</button>
+                      <button type="button" class="list-group-item" onclick="loadData('{{project.long_desc}}','{{project.modal_image}}')" >{{project.title}}</button>
                     {% endfor %}
                 </div>
             </div>            
@@ -116,11 +116,16 @@ description: Innovation does not believe in academic borders. Neither do we! We 
 <script type="text/javascript">
     var para = document.getElementById('responsive');
     
-    function loadData (data){
+    function loadData (data,image){
         console.log(typeof(data));
         console.log(data);
         para.innerHTML = data;
         para.style.fontSize = "18px";
+        var image_elem = document.createElement("img");
+        image_elem.setAttribute("class","img-responsive");
+        image_elem.setAttribute("src",image);
+        para.appendChild(image_elem);
+        console.log(image);
     }
 
 </script>
