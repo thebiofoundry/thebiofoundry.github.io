@@ -1,16 +1,16 @@
-	<div class="container" style="margin-top: 15%;">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-            
-                <h2 class="section-heading">Outreach</h2>
-                <h3>We are extremely active in the academia community! Here are some of the things we have done!</h3>
-                <hr class="primary">
-                <br />
-            </div>
-                <div class="container">
+---
+layout: page
+permalink: /outreach/
+title: Outreach
+description: We are extremely active in the academia community! Here are some of the things we have done!
+---
+
+
+
+<div class="container">
                     {% for item in site.outreach %}
                     <!-- conference goes here -->
-                     <div class="col-md-3 col-lg-3 col-sm-12" data-toggle="modal" data-target="#myModal">  
+                     <div class="col-md-3 col-lg-3 col-sm-12"  data-toggle="modal" data-target="#myModal">  
                          <img src="{{item.front_image}}" class="img-responsive" alt="{{item.title}}" max-width="100%" >
                          <h3>{{item.title}}</h3>
                          <p>{{item.description}}</p>
@@ -39,8 +39,3 @@
                     
                     {% endfor %}
                 </div>
-        </div>
-    </div>
-    
-
-
