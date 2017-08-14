@@ -5,7 +5,7 @@ title: Sandip V. Pawara
 description: MITACS Accelerate Post-doctoral Fellow
 img: /img/members/vgyadav.jpg
 program: BASc
-status: Current
+status: grad
 year_end: 
 year_start: 2017
 email: siang [at] alumni.ubc.ca

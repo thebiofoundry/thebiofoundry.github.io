@@ -6,7 +6,7 @@ description: >
   Post-doctoral Fellow, Biomaterials
 img: /img/members/vgyadav.jpg
 program: BASc
-status: Current
+status: grad
 year_end: 
 year_start: 2017
 email: siang [at] alumni.ubc.ca

@@ -5,7 +5,7 @@ title: Athanasios Kritharis
 description: undergraduate
 img: /img/members/vgyadav.jpg
 program: BASc
-status: Current
+status: undergrad
 year_end: 
 year_start: 2017
 email: siang [at] alumni.ubc.ca

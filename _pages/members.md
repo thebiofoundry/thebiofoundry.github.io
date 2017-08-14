@@ -9,9 +9,11 @@ description: Current members and alumni
 
 <br>
 <div class="container">
-	<!-- <div class="row"> -->
+	<h3>Graduate students</h3>
+	<hr style="border-top: 1px solid #8c8b8b; max-width: 100%!important;"><br>
+	<div class="row">
 	{% for member in site.members %}
-	{% if member.status == 'Current' %}
+	{% if member.status == 'grad' %}
 	<div class="col-md-3 col-sm-6 member-block">
 		<div class= "pop-block" title="<h2>{{ member.title }} </h2> " data-toggle="popover" data-trigger="focus" tabindex="0" data-placement = "bottom"  data-content="{{member.biography}}">
 		            <center>
@@ -26,7 +28,28 @@ description: Current members and alumni
 	</div>
 	{% endif %}
 	{% endfor %}
-	<!-- </div> -->
+	</div>
+	<!-- Undergraduate line -->
+	<h3>Undergraduate students</h3>
+	<hr style="border-top: 1px solid #8c8b8b; max-width: 100%!important;"><br>
+	<div class="row">
+	{% for member in site.members %}
+	{% if member.status == 'undergrad' %}
+	<div class="col-md-3 col-sm-6 member-block">
+		<div class= "pop-block" title="<h2>{{ member.title }} </h2> " data-toggle="popover" data-trigger="focus" tabindex="0" data-placement = "bottom"  data-content="{{member.biography}}">
+		            <center>
+		            	<img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+		            </center>
+		</div>
+		            <br>
+		            <div class= "member-spacer">
+			            <b> {{ member.title }} </b> 
+			            <small>{{ member.program }} | since {{ member.year_start }} </small>
+		            </div>
+	</div>
+	{% endif %}
+	{% endfor %}
+	</div>
 </div>
 
 
