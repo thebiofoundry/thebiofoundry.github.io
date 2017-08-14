@@ -754,7 +754,7 @@ body {
     }
    } 
    .modal-backdrop {
-   background-color: transparent;
+   background-color: transparent;overflow: visible;
 }
 
 
@@ -773,9 +773,10 @@ body {
 {
   width:100%;
   height:200px;
+  
 }
  
 .modal, .modal-backdrop {
     position: absolute !important;
-    // position: relative;
+    overflow: visible;
 }
