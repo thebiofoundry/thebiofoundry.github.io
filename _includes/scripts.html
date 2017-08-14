@@ -48,3 +48,23 @@
     });
 
 </script>
+
+<script type="text/javascript">
+    var para = document.getElementById('responsive');
+    
+    function loadData (desc,image){
+        para.innerHTML = desc;
+        para.style.fontSize = "18px";
+        if (image === undefined){
+
+        }
+        else{        
+        var image_elem = document.createElement("img");
+        image_elem.setAttribute("class","img-responsive");
+        image_elem.setAttribute("src",image);
+        para.appendChild(image_elem);
+      }
+
+    }
+
+</script>
