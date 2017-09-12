@@ -1,13 +1,8 @@
 ---
-title: Fighting Malaria with Synthetic Biology
-description: We dont make   mosquitos cuz they work
+title: Combatting Mosquito-borne Diseases
+description: Fighting Malaria with Synthetic Biology
 long_desc:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-modal_image: /img/portfolio/skeet2.jpg
-front_image: /img/portfolio/skeet2.jpg
+  The Blood is the life, and it shall be mine. Bram Stoker might very well have been thinking about the greatest serial killer in history when he peneed those immortal words. Between them, mosquito-borne illnesses such as malaria, dengue fever, West Nile virus and other encephalitic viruses affect over 700 million people across the globe each year. Of these, over a million perish, and most of these deaths are concentrated in Africa. Our work is strengthening societys arsenal to combat mosquito-borne diseases. We have adopted a very innovative approach that harnesses synthetic biology to achieve this goal and our solution is highly effective and resource-efficent.
+modal_image: /img/portfolio/biofuels2.jpg
+front_image: /img/portfolio/biofuels2.jpg
 ---
