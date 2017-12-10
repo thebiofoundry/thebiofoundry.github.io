@@ -2,18 +2,16 @@
 layout: member
 weight: 200
 title: Carmen Bayly
-description: >
-  Graduate Student, Genome Sciences and Technology
 img: /img/members/vgyadav.jpg
-program: BASc
-status: grad
-year_end: 
+degrees: B.Sc. Concordia University Montreal
+program: PhD candidate
 year_start: 2017
+year_end:
+status: grad
+description: >
+  Carmen is a PhD candidate in the Genome Science and Technology program, carrying out her research in Biofoundry. She uses protein and metabolic engineering to develop microbial strains that produce biopharmaceutical derivatives and branched-chain fatty acids.
+
 email: siang [at] alumni.ubc.ca
-biography: >
-  Ngai To recently graduated from UBC with distinction in chemical engineering (minor in computer science).
-project: >
-  Summer 2017 NSERC USRA project on machine learning and process control.
 linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
 homepage: http://www.siang.ca 
 ---

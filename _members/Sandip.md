@@ -1,18 +1,19 @@
 ---
 layout: member
-weight: 100
+weight: 200
 title: Sandip V. Pawara
-description: MITACS Accelerate Post-doctoral Fellow
 img: /img/members/vgyadav.jpg
-program: BASc
-status: grad
-year_end: 
+program: MITACS Accelerate Post-doctoral Fellow
+degrees : B. Pharm – University of Pune, India, M. Tech – National Institute of Pharmaceutical Education and Research, Punjab, India Research Scientist – Bioplus Lifesciences, India PhD (Tech) – Institute of Chemical Technology, Mumbai, India
 year_start: 2017
+year_end:
+status: grad
+description: >
+  Working on application of metagenomics, synthetic biology and metabolic engineering for development of pharmaceuticals and biotechnological product
+about_me: >
+  I enjoy nature and wildlife photography
+
 email: siang [at] alumni.ubc.ca
-biography: >
-  Ngai To recently graduated from UBC with distinction in chemical engineering (minor in computer science).
-project: >
-  Summer 2017 NSERC USRA project on machine learning and process control.
 linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
 homepage: http://www.siang.ca 
 ---

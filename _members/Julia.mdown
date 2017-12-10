@@ -1,0 +1,19 @@
+---
+layout: member
+weight: 200
+title: Julia Nogueira Varela
+img: /img/members/vgyadav.jpg
+program: PhD Candidate
+degrees : B.Sc State University of Campinas, M.Sc State University of Campinas, Graduate Certificate Simon Fraser University, 
+year_start: 2017
+year_end:
+status: grad
+description: >
+  Using synthetic biology to solve healthcare problems.
+about_me: >
+  I am a red belt in taekwnodo and I can speak 4 languages. 
+
+email: siang [at] alumni.ubc.ca
+linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
+homepage: http://www.siang.ca 
+---

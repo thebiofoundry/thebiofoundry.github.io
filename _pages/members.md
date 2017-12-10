@@ -15,7 +15,7 @@ description: Current members and alumni
 	{% for member in site.members %}
 	{% if member.status == 'grad' %}
 	<div class="col-md-3 col-sm-6 member-block">
-		<div class= "pop-block" title="<h2>{{ member.title }} </h2> " data-toggle="popover" data-trigger="focus" tabindex="0" data-placement = "bottom"  data-content="{{member.biography}}">
+		<div class= "pop-block" title="<h2>{{ member.title }} </h2> <br> {{member.degrees}}" data-toggle="popover" data-trigger="focus" tabindex="0" data-placement = "bottom"  data-content="<b>Research Focus:</b><br> {{member.description}} <br><br> <b>Something About Me:</b> <br> {{member.about_me}}">
 		            <center>
 		            	<img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
 		            </center>
@@ -36,7 +36,7 @@ description: Current members and alumni
 	{% for member in site.members %}
 	{% if member.status == 'undergrad' %}
 	<div class="col-md-3 col-sm-6 member-block">
-		<div class= "pop-block" title="<h2>{{ member.title }} </h2> " data-toggle="popover" data-trigger="focus" tabindex="0" data-placement = "bottom"  data-content="{{member.biography}}">
+		<div class= "pop-block" title="<h2>{{ member.title }} </h2> <br> {{member.degrees}}" data-toggle="popover" data-trigger="focus" tabindex="0" data-placement = "bottom"  data-content="<b>Research Focus:</b><br> {{member.description}} <br><br> <b>Something About Me:</b> <br> {{member.about_me}}">
 		            <center>
 		            	<img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
 		            </center>

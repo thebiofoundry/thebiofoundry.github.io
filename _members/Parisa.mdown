@@ -1,0 +1,19 @@
+---
+layout: member
+weight: 200
+title: Parisa Chegounian
+img: /img/members/vgyadav.jpg
+program: M.A.Sc
+degrees : M.A.Sc, Isfahan University of Technology
+year_start: 2017
+year_end:
+status: grad
+description: >
+  Parisa is developing on the kill switches that can cause synthetic bacteria to die and make them safer to be used outside of a laboratory environment.
+about_me:
+
+
+email: siang [at] alumni.ubc.ca
+linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
+homepage: http://www.siang.ca 
+---
