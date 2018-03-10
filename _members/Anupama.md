@@ -3,18 +3,14 @@ layout: member
 weight: 200
 title: Anupama Sharan
 img: /img/members/vgyadav.jpg
-program: M.Asc Candidate
-degrees: Bachelor of Biotechnological Engineering from Birla Institute of Technology, India
-year_start: 2017
+degrees: B. E. in Biotechnology, Birla Institute of Technology 
+program: M.A.Sc. candidate
+year_start: 2016
 year_end:
 status: grad
-description: >
-  Her research is focused on developing a consolidated bioprocess for adding value to the important lignocellulosic waste stream - pulp and paper mill sludge using metagenomics and biotechnology.
-about_me: >
-  She believes in working towards shaping disruptive innovations and thinking in society and is very interested in shaping the paradigm shift from bioremediation to biovalorization of waste and designing brownfield operations that would seamlessly integrate varied sectors of the global economy. 
- 
-
-email: siang [at] alumni.ubc.ca
+description: Development of a consolidated bioprocess for valorization of lignocellulosic waste streams such as pulp and paper mill sludge using metagenomics and metabolic engineering
+about_me: “I seek to dissipate disruptive innovations and sustainable thinking within society through my research, advocacy and outreach.” 
+mail: sharan.anupama1@gmail.com
 linkedin: https://www.linkedin.com/in/anupama-sharan-7299a9121
 homepage: https://youtu.be/mppLtjoCub0
 ---

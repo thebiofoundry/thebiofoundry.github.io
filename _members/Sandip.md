@@ -1,19 +1,16 @@
 ---
 layout: member
 weight: 200
-title: Sandip V. Pawara
+title: Sandip V. Pawar
 img: /img/members/vgyadav.jpg
-program: MITACS Accelerate Post-doctoral Fellow
-degrees : B. Pharm – University of Pune, India, M. Tech – National Institute of Pharmaceutical Education and Research, Punjab, India Research Scientist – Bioplus Lifesciences, India PhD (Tech) – Institute of Chemical Technology, Mumbai, India
-year_start: 2017
+program: Senior scientist
+degrees : B. Pharm., University of Pune, India; M. Tech. in Pharmaceutical Sciences, National Institute of Pharmaceutical Education and Research, India; Ph.D. in Chemical Engineering, Institute of Chemical Technology, India
+year_start: 2014
 year_end:
-status: grad
-description: >
-  Working on application of metagenomics, synthetic biology and metabolic engineering for development of pharmaceuticals and biotechnological product
-about_me: >
-  I enjoy nature and wildlife photography
-
-email: siang [at] alumni.ubc.ca
-linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
-homepage: http://www.siang.ca 
+status: postdoc
+description: Application of metagenomics and metabolic engineering for engineering strains that synthesize pharmaceuticals and other value-added products
+about_me: “I enjoy nature and wildlife photography”.
+email: sandip.niper@gmail.com
+linkedin: https://ca.linkedin.com/in/sandip-pawar-3a544217
+homepage: 
 ---

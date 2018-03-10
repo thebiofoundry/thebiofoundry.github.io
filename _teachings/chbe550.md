@@ -7,6 +7,6 @@ description: >
 status: active
 days: 
   - key: Tues-Thur. 9:30-11:00
-office_time: >
+office_hours: >
   Thurs. 11:30-12:30
 ---

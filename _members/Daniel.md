@@ -3,17 +3,14 @@ layout: member
 weight: 200
 title: Daniel Korvin
 img: /img/members/vgyadav.jpg
-program: M.Asc Candidate
-degrees : B.Sc The University of British Columbia
-year_start: 2017
+degrees: B. Sc. in Microbiology & Immunology, University of British Columbia
+program: M.A.Sc. candidate
+year_start: 2016
 year_end:
 status: grad
-description: >
-  Daniel's research focuses on the practical application of genetic circuitry principles to improve bioprocess performance.
-about_me: >
-  
-
-email: siang [at] alumni.ubc.ca
-linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
-homepage: http://www.siang.ca 
+description: Design of genetic circuits for improving strain performance in industrial bioprocesses
+about_me: “I have performed in numerous plays and won plaudits for my stirring performances…but Prof. Yadav thinks Zac Efron is a better actor than me.”
+mail: 91dkorv@gmail.com
+linkedin: 
+homepage:
 ---
