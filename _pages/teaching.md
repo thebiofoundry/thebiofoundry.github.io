@@ -17,8 +17,15 @@ description: Innovation does not believe in academic borders. Neither do we! We 
             <p>{{teaching.description}}</p>
         </div>
         <div class="col-lg-4 col-md-12 text-left">
-            <h3>Lectures:</h3> <p>{{teaching.days}}</p>
-            <h3>Office Hours</h3> <p>{{teaching.office_time}}</p>
+            <h3>Lectures:</h3>
+            <!-- <p> -->
+                {% for day in teaching.days %}
+                <p style="padding-left: 1em;">
+                    {{ day.key }}
+                </p>
+                {% endfor %}
+            <!-- </p> -->
+            <h3>Office Hours</h3> <p style="padding-left: 1em;">{{teaching.office_time}}</p>
             <h3>Resources</h3>
         </div>            
     </div>
