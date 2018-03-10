@@ -709,15 +709,20 @@ body {
  }
  .member-block{
   // position: static;
-  height:161px;
+  height:200px;
   outline: none !important;
   position: static;
+
 
  }
  .member-img{
   border-radius:50%;
-  border: 4px solid #7887AB;
+  border: 4px solid  #ffffff;
  }
+ //.member-img:hover {
+ // border-radius:50%;
+ // border: 4px solid #7887AB;
+ //}
  .popover{
     // display: inline-block;
     // border: 2px dotted red;
@@ -733,6 +738,7 @@ body {
   .pop-block {
     outline: none;
     // margin-bottom: 20px;
+    cursor: pointer;
   }
   .member-spacer{
     padding-top: 3px;
