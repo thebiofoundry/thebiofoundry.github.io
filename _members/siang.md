@@ -15,4 +15,5 @@ project: >
   Summer 2017 NSERC USRA project on machine learning and process control.
 linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
 homepage: http://www.siang.ca 
+degrees : masters
 ---

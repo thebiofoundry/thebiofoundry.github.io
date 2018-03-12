@@ -1,21 +1,15 @@
 ---
 layout: member
-weight: 100
+weight: 200
 title: Sonal Ayakar
-description: >
-  Graduate Student, Cheimcal and Biological Engineering
 img: /img/members/vgyadav.jpg
-program: BASc
+program: Ph.D. candidate
+degrees : M. Tech. in Biotechnology, Institute of Chemical Technology, India; B. Pharm., University of Mumbai, India
 status: grad
 year_end: 
 year_start: 2017
-email: siang [at] alumni.ubc.ca
-biography: >
-  Ngai To recently graduated from UBC with distinction in chemical engineering (minor in computer science).
-project: >
-  Summer 2017 NSERC USRA project on machine learning and process control.
-linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
-homepage: http://www.siang.ca
-tags: [featured]
-featuredOrder: 2
+description: Engineering plant metabolic pathways in heterologous hosts and studying biochemical mechanisms that control flux
+email: sayakar@chbe.ubc.ca
+linkedin: 
+homepage: 
 ---

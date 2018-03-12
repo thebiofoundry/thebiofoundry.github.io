@@ -10,6 +10,8 @@ description: Innovation does not believe in academic borders. Neither do we! We 
 
 {% for teaching in site.teachings %}
     {% if teaching.status == 'active' %}
+    <hr style="width: 100% !important;
+                max-width: none!important">    
     <div class="row">
         <div class="col-lg-8 col-md-12 text-left">
             <h2><b>{{teaching.course-code}}</b></h2>
@@ -17,9 +19,22 @@ description: Innovation does not believe in academic borders. Neither do we! We 
             <p>{{teaching.description}}</p>
         </div>
         <div class="col-lg-4 col-md-12 text-left">
-            <h3>Lectures:</h3> <p>{{teaching.days}}</p>
-            <h3>Office Hours</h3> <p>{{teaching.office_time}}</p>
-            <h3>Resources</h3>
+            <h3>Lectures:</h3>
+            <!-- <p> -->
+                {% for day in teaching.days %}
+                <p style="padding-left: 1em;">
+                    {{ day.key }}
+                </p>
+                {% endfor %}
+            {% if teaching.tutorial %}    
+            <h3>Tutorials:</h3>
+                <p style="padding-left: 1em;">
+                    {{teaching.tutorial}}
+                </p>
+            {% endif %}    
+            <!-- </p> -->
+            <h3>Office Hours:</h3> <p style="padding-left: 1em;">{{teaching.office_time}}</p>
+            <h3>Resources:  </h3>
         </div>            
     </div>
     {% endif %}

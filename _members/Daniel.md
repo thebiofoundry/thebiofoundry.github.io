@@ -1,19 +1,16 @@
 ---
 layout: member
-weight: 100
+weight: 200
 title: Daniel Korvin
-description: >
-  Research Associate, Metabolic Engineering
 img: /img/members/vgyadav.jpg
-program: BASc
+degrees: B. Sc. in Microbiology & Immunology, University of British Columbia
+program: M.A.Sc. candidate
+year_start: 2016
+year_end:
 status: grad
-year_end: 
-year_start: 2017
-email: siang [at] alumni.ubc.ca
-biography: >
-  Ngai To recently graduated from UBC with distinction in chemical engineering (minor in computer science).
-project: >
-  Summer 2017 NSERC USRA project on machine learning and process control.
-linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
-homepage: http://www.siang.ca 
+description: Design of genetic circuits for improving strain performance in industrial bioprocesses
+about_me: “I have performed in numerous plays and won plaudits for my stirring performances…but Prof. Yadav thinks Zac Efron is a better actor than me.”
+mail: 91dkorv@gmail.com
+linkedin: 
+homepage:
 ---

@@ -1,0 +1,16 @@
+---
+layout: member
+weight: 200
+title: Parisa Chegounian
+img: /img/members/vgyadav.jpg
+program: Ph.D. candidate
+degrees : M.A.Sc. in Chemical Engineering, Isfahan University of Technology 
+year_start: 2017
+year_end:
+status: grad
+description: Construction of genetic switches for biocontainment
+about_me: 
+email: parisa.chegounian@gmail.com
+linkedin: 
+homepage: 
+---

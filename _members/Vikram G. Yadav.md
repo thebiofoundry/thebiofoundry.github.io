@@ -18,5 +18,6 @@ project: >
 linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
 homepage: http://www.siang.ca 
 tags: [featured]
+degrees : masters
 featuredOrder: 1
 ---
