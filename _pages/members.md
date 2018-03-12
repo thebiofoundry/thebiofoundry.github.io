@@ -77,7 +77,7 @@ description: Current members and alumni
 	<!-- End of Undergrad -->
 </div>
 
-<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-original-title="" title="">Popover on right</button>
+
 
 <br>
  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>

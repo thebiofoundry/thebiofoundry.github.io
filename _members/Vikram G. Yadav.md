@@ -7,7 +7,7 @@ img: /img/members/vgyadav.jpg
 education: >
   Ph.D., Massachusetts Institute of Technology (2013) \n B.A.Sc., University of Waterloo (2007)
 program: BASc
-status: grad
+status:  PI
 year_end: 
 year_start: 2017
 email: siang [at] alumni.ubc.ca
