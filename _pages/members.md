@@ -80,8 +80,8 @@ description: Current members and alumni
 <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-original-title="" title="">Popover on right</button>
 
 <br>
- <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
- <script src="http://code.jquery.com/jquery-migrate-1.1.0.js"></script>
+ <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+ <script src="https://code.jquery.com/jquery-migrate-1.1.0.js"></script>
 
 <script>
 	$(document).ready(function(){
