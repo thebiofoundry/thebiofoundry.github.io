@@ -11,7 +11,10 @@ description: Innovation does not believe in academic borders. Neither do we! We 
 {% for teaching in site.teachings %}
     {% if teaching.status == 'active' %}
     <hr style="width: 100% !important;
-                max-width: none!important">    
+                max-width: none!important;
+                border:none!important;
+                height:1px!important;
+                background-color:black;">    
     <div class="row">
         <div class="col-lg-8 col-md-12 text-left">
             <h2><b>{{teaching.course-code}}</b></h2>
