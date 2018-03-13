@@ -7,6 +7,7 @@ permalink: /contact/
 The BioFoundry is a young, dynamic and growing research group. If you share our passion for innovation and sustainability, and are motivated to make a difference by conducting impactful research, we encourage you to reach out to us.
 
 Email: <a href="mailto:vikramaditya.yadav@ubc.ca">vikramaditya.yadav@ubc.ca</a>
+
 [Faculty Profile](http://www.chbe.ubc.ca/profile/vikramaditya-yadav/)
 
 # Location
