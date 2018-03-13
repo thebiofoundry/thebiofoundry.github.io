@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<section id="page-content" class="page-content bg-primary text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2  class="section-heading">{{ page.title }}</h2>
+                <p>{{ page.description }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="why">
+  <div class="container">
+        {{ content }}
+   </div>
+</section>
