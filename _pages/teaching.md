@@ -37,8 +37,7 @@ description: Innovation does not believe in academic borders. Neither do we! We 
             {% endif %}    
             <!-- </p> -->
             <h3>Office Hours:</h3> <p style="padding-left: 1em;">{{teaching.office_time}}</p>
-            <h3>Resources:  </h3>
-        </div>            
+          </div>            
     </div>
     {% endif %}
 {% endfor %}
