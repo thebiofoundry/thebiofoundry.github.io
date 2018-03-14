@@ -35,15 +35,17 @@
 
 // variables.less link and gradient background
 // $head-primary: #3b8787 ;
-$head-secondary: #0c486c ;
-$head-primary: #129393 ;
+$head-secondary: #252D8F ;
+//$head-primary: #129393 ;
 // $head-secondary: #0D0D73 ;
+$head-primary: #346E91;
 
-$theme-primary: #0c486c ;
+
+$theme-primary: #252D8F ;
 // $theme-primary: #0D0D73 ;
 // $theme-secondary: #3b8787 ;
-$theme-secondary: #129393 ;
-
+//$theme-secondary: #129393 ;
+$theme-secondary: #346E91;
 $theme-dark: #222;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
