@@ -3,7 +3,7 @@ layout: member
 weight: 1
 title: Vikram G. Yadav
 description: Principal investigator
-img: /img/members/vgyadav.jpg
+img: 
 education: >
   Ph.D., Massachusetts Institute of Technology (2013) \n B.A.Sc., University of Waterloo (2007)
 program: BASc

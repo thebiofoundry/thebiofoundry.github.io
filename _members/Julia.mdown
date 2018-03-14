@@ -2,7 +2,7 @@
 layout: member
 weight: 200
 title: Julia Nogueira Varela
-img: /img/members/vgyadav.jpg
+img: 
 program: Ph.D. candidate
 degrees : B.Sc. in Pharmacology, State University of Campinas; M.Sc. in Pharmacology, State University of Campinas; Graduate Certificate in Commercializing of Biotechnology, Simon Fraser University
 year_start: 2015

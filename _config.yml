@@ -2,7 +2,7 @@
 title: The BioFoundry
 email: vikramaditya.yadav@ubc.ca
 description: The Biofoundry
-
+generic_image: /img/members/avatar2.png
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 url: "https://thebiofoundry.github.io" # the base hostname & protocol for your site
 

@@ -2,7 +2,7 @@
 layout: member
 weight: 200
 title: Parisa Chegounian
-img: /img/members/vgyadav.jpg
+img: 
 program: Ph.D. candidate
 degrees : M.A.Sc. in Chemical Engineering, Isfahan University of Technology 
 year_start: 2017

@@ -17,7 +17,11 @@ description: Current members and alumni
 	<div class="col-md-3 col-sm-6 member-block">
 		<div class= "pop-block" title="<h2>{{ member.title }} </h2> <br> {{member.degrees}}" data-toggle="popover" data-container="body" tabindex="0" data-placement = "bottom"  data-content="<b>Research Focus:</b><br> {{member.description}} <br><br> <b>Something About Me:</b> <br> {{member.about_me}}">
 		            <center>
-		            	<img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+		            	{% if member.img  %}
+						<img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+						{% else %}
+						<img src="{{ site.generic_image | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+						{% endif %}
 		            </center>
 		</div>
 <br>
@@ -39,7 +43,11 @@ description: Current members and alumni
 	<div class="col-md-3 col-sm-6 member-block">
 		<div class= "pop-block" title="<h2>{{ member.title }} </h2> <br> {{member.degrees}}" data-toggle="popover" data-container="body" tabindex="0" data-placement = "bottom"  data-content="<b>Research Focus:</b><br> {{member.description}} <br><br> <b>Something About Me:</b> <br> {{member.about_me}}">
 		            <center>
-		            	<img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+		            	{% if member.img  %}
+						<img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+						{% else %}
+						<img src="{{ site.generic_image | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+						{% endif %}
 		            </center>
 		</div>
 <br>
@@ -62,7 +70,11 @@ description: Current members and alumni
 	<div class="col-md-3 col-sm-6 member-block">
 		<div class= "pop-block" title="<h2>{{ member.title }} </h2> <br> {{member.degrees}}" data-toggle="popover" data-container="body" tabindex="0" data-placement = "bottom"  data-content="<b>Research Focus:</b><br> {{member.description}} <br><br> <b>Something About Me:</b> <br> {{member.about_me}}">
 		            <center>
-		            	<img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+		            	{% if member.img %}
+						<img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+						{% else %}
+						<img src="{{ site.generic_image | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+						{% endif %}
 		            </center>
 		</div>
 		            <br>
