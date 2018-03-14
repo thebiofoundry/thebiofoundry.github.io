@@ -4,7 +4,7 @@ weight: 100
 title: Maryam Kabiri
 description: >
   Post-doctoral Fellow, Biomaterials
-img: 
+img: /img/members/maryam-photo.jpg
 program: BASc
 status: grad
 year_end: 

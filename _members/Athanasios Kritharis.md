@@ -2,7 +2,7 @@
 layout: member
 weight: 100
 title: Athanasios Kritharis
-img: 
+img: /img/members/thanos.jpg
 degrees: 
 program: B.A.Sc. candidate
 year_start: 2014

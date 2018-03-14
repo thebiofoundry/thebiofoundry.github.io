@@ -4,7 +4,7 @@ weight: 100
 title: Michael Robes
 description: >
   Scholar in residence
-img: 
+img: /img/members/mike-robe-photo.jpg
 program: BASc
 status: undergrad
 year_end: 

@@ -1,7 +1,7 @@
 layout: member
 weight: 200
 title: Carmen Bayly
-img: 
+img: /img/members/carmen-photo.jpg
 degrees: B.Sc. in Cell & Molecular Biology, Concordia University 
 program: Ph.D. candidate
 year_start: 2014

@@ -2,7 +2,7 @@
 layout: member
 weight: 200
 title: Daniel Korvin
-img: 
+img: /img/members/dan-photo.jpg
 degrees: B. Sc. in Microbiology & Immunology, University of British Columbia
 program: M.A.Sc. candidate
 year_start: 2016

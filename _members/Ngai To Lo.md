@@ -3,7 +3,7 @@ layout: member
 weight: 100
 title: Ngai To Lo
 description: Developing low-cost instrumentation for biological experimentation
-img:
+img: /img/members/ito.jpg
 program: B.A.Sc. candidate
 status: undergrad
 year_end: 

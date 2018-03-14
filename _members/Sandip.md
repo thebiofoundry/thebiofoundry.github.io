@@ -2,7 +2,7 @@
 layout: member
 weight: 200
 title: Sandip V. Pawar
-img: 
+img: /img/members/svpawar-photo.jpg
 program: Senior scientist
 degrees : B. Pharm., University of Pune, India; M. Tech. in Pharmaceutical Sciences, National Institute of Pharmaceutical Education and Research, India; Ph.D. in Chemical Engineering, Institute of Chemical Technology, India
 year_start: 2014
