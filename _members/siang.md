@@ -3,7 +3,7 @@ layout: member
 weight: 100
 title:  Siang Lim
 description: Webguru
-img: /img/members/vgyadav.jpg
+img: 
 program: BASc
 status: undergrad
 year_end: 

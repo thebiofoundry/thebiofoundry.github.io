@@ -2,7 +2,7 @@
 layout: member
 weight: 200
 title: Anupama Sharan
-img: /img/members/vgyadav.jpg
+img: 
 degrees: B. E. in Biotechnology, Birla Institute of Technology 
 program: M.A.Sc. candidate
 year_start: 2016

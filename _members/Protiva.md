@@ -2,7 +2,7 @@
 layout: member
 weight: 200
 title: Protiva Roy
-img: /img/members/vgyadav.jpg
+img: 
 program: Senior scientist
 degrees : PhD in Analytical Chemistry from Tokyo Institute of Technology, Japan; M.Sc. in Biochemistry, University of Dhaka, Bangladesh  
 year_start: 2015

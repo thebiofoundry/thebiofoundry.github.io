@@ -2,7 +2,7 @@
 layout: member
 weight: 200
 title: David Goertsen,
-img: /img/members/vgyadav.jpg
+img: 
 program: Chief engineer & project manager, Metabolik Technologies Inc.
 degrees :  B. A. Sc. in Chemical & Biological Engineering, University of British Columbia
 year_start: 2017

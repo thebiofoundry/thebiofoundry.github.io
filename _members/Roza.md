@@ -2,7 +2,7 @@
 layout: member
 weight: 200
 title: Roza Vaez Ghaemi
-img: /img/members/vgyadav.jpg
+img: 
 program: Ph.D. candidate 
 degrees : M.A.Sc. in Biomedical Engineering, University of British Columbia
 year_start: 2017
