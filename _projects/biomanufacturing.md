@@ -7,6 +7,6 @@ long_desc:
   The expression of such a large set of enzymes could potentially induce severe physiological stresses within the host. Consequently, the metabolic pathway must be suitably modified and adapted for optimal performance of the production ‘chassis’ - the host. This task necessitates application of concepts from multivariate statistics, process systems engineering and molecular biology. 
   <br><br>
   Another approach involves synthesizing an advanced intermediate that acts as a gateway molecule for TOS via the expression of a vastly smaller set of enzymes takes advantage of the core competencies of both, metabolic engineering and synthetic chemistry. The BioFoundry is leading innovation in both these domains and is pioneering the development of optimal hosts, and manufacturing schemes and platforms for the production of important pharmaceuticals. 
-modal_image: /img/portfolio/tailings-pond2.jpg
-front_image: /img/portfolio/tailings-pond2.jpg
+modal_image: /img/research/better_bioprocesses.jpg
+front_image: /img/research/better_bioprocesses.jpg
 ---

@@ -9,6 +9,6 @@ long_desc:
   The BioFoundry is developing novel enzymes and metabolic pathways to re-cast fermentation as a platform for providing designer biofuels.  
   <br><br>
   This work, in conjunction with the development of direct lignocellulosic fermentation and related technologies that is being undertaken in other research laboratories at the University of British Columbia, could finally lead to the establishment of a biofuels manufacturing process that is competitive with traditional thermochemical-based fuel manufacturing processes. 
-modal_image: /img/portfolio/terpenoid2.png
-front_image: /img/portfolio/terpenoid2.png
+modal_image: /img/research/better_bioprocesses.jpg
+front_image: /img/research/better_bioprocesses.jpg
 ---
