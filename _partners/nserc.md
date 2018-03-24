@@ -1,7 +1,7 @@
 ---
-title: MITACS Accelerate
+title: NSERC Canada
 description: >
-  Mitacs supports national innovation by coordinating collaborative industry-university research projects with human capital development at their core. Since 1999, Mitacs has been promoting academic-industrial R&D while supporting the development of future innovation leaders. Mitacs has developed a proactive and successful approach to supporting innovation, both directly through collaborative R&D and indirectly through long-term development of skilled human capital.
+  NSERC aims to make Canada a country of discoverers and innovators for the benefit of all Canadians. The agency supports university students in their advanced studies, promotes and supports discovery research, and fosters innovation by encouraging Canadian companies to participate and invest in postsecondary research projects. NSERC researchers are on the vanguard of science, building on Canada’s long tradition of scientific excellence.
 img: /img/partners/nserc.jpg
-link: http://www.mitacs.ca/
+link: http://www.nserc-crsng.gc.ca/index_eng.asp
 ---
