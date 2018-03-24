@@ -10,6 +10,7 @@ description: Innovation does not believe in academic borders. Neither do we! We 
         <div class="row">
             <div class="col-lg-8 col-md-12 text-left">
                 <h2 id = "main-space"><b>The BioFoundry</b></h2>
+                <p>We are a multidisciplinary research group that specializes in the design and development of next-generation, green chemical processes for the manufacture of cleaner fuels, superior medicines and novel materials.</p>
                 <div id="responsive">
                     <img src="/img/research/research_overview.jpg" class="img-responsive">
                 </div>

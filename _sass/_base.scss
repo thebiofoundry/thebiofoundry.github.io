@@ -461,6 +461,7 @@ footer {
   background: $theme-primary;
   background: -webkit-linear-gradient($theme-primary, $theme-secondary);
   background: linear-gradient($theme-primary, $theme-secondary);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, $head-primary, $head-secondary);
 }
 
 .text-primary {
