@@ -8,6 +8,6 @@ long_desc:
   <br>
   We strongly believe that our work will be of interest to the broad readership of ACS Sustainable Chemistry & Engineering, and will generate healthy debate about an underappreciated aspect of green chemical processes – their profitability. I hope you agree with our assessment and we anticipate your decision regarding our submission.
 
-modal_image: /img/research/better_bioprocesses.jpg
-front_image: /img/research/better_bioprocesses.jpg
+modal_image: /img/research/biosynthetic_engineering.jpg
+front_image: /img/research/biosynthetic_engineering.jpg
 ---
