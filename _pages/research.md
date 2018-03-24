@@ -16,8 +16,8 @@ description: Innovation does not believe in academic borders. Neither do we! We 
                 <br>
                 <p id="responsive-para"><b>The BioFoundry at the University of British Columbia</b> is a multidisciplinary research group that specialises in the development of green and sustainable chemical manufacturing processes and novel environmental remediation strategies. Our research group is at the forefront of innovation in a strategic domain for Canada and British Columbia. We utilise cutting-edge tools and technogloies to preicsely modulate and control the metabolic networks of microoganisms to produce cleaner fuels and more efficcacious drugs, as well as mop up pollution from the environment.</p>
             </div>
-            <div class="col-lg-4 col-md-12 text-left">
-                <img class="img-responsive" src="/img/sustainable-ideas.jpg">
+            <div class="col-lg-4 col-md-12 text-left research-large">
+                <img class="img-responsive" src="/img/sustainable-ideas.jpg" >
                 <h3 class="text-center"><a href="/research" class="button">About Us</a></h3>
                 {% for project in site.projects %}
                   <button type="button" class="list-group-item" onclick="loadData('{{project.long_desc}}','{{project.modal_image}}')" >{{project.title}}</button>
