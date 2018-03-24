@@ -24,6 +24,9 @@ description: Innovation does not believe in academic borders. Neither do we! We 
                     <p>To this end, biomass has emerged as a viable alternative to petroleum for the production of energy, chemicals and materials. Biomass is abundant, inexpensive and carbon neutral. Moreover, the immense ease and efficiency with which biological systems can convert biomass into fuels, chemicals and materials has generated renewed interest in biotechnology as a potential replacement for traditional chemical manufacturing processes. Nature’s powers of self-cleansing pollutants too remain unrivaled. </p>
                     <p>Aided by the ever-expanding repertoire of tools for studying microbial genetics and plant biotechnology, improved understanding of gene regulation and cellular metabolism, and incessantly accumulating gene and protein data, scientists & engineers such as us can now construct microbial cell factories to clean the environment, and produce fuels, chemicals, materials and pharmaceuticals in an economical and sustainable manner.  </p>
                 </div>
+                <br>
+                <p id="responsive-para">
+                </p>
             </div>
             <div class="col-lg-4 col-md-4 text-left">
                 <br>

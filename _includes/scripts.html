@@ -51,20 +51,24 @@
 
 <script type="text/javascript">
     var para = document.getElementById('responsive');
+    var responsive_para = document.getElementById('responsive-para');
+    
     
     function loadData (desc,image){
-        para.innerHTML = desc;
-        para.style.fontSize = "18px";
         if (image === undefined){
-
+          para.innerHTML = '';
+          responsive_para.innerHTML = desc;
         }
         else{        
-        var image_elem = document.createElement("img");
-        image_elem.setAttribute("class","img-responsive");
-        image_elem.setAttribute("src",image);
-        para.appendChild(image_elem);
-      }
+          var image_elem = document.createElement("img");
+          image_elem.setAttribute("class","img-responsive");
+          image_elem.setAttribute("id","research-id");
+          image_elem.setAttribute("src",image);
 
+          para.innerHTML = '';
+          para.appendChild(image_elem);
+
+          responsive_para.innerHTML = desc;
+        }
     }
-
 </script>
