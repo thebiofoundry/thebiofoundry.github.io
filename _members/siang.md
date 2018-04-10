@@ -5,8 +5,8 @@ title: Siang Lim
 img: /img/members/siang.jpg
 degrees: BASc Chemical Engineering '17
 program: Professional Ramen Taster
-year_start:
-year_end: 2017
+year_start: 2017
+year_end: 
 status: undergrad
 description: Computational research, software development
 about_me: Need a website? Let's talk.
