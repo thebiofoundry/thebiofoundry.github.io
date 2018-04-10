@@ -8,6 +8,35 @@ description: Current members and alumni
 <br>
 
 <div class="container">
+	
+	<!-- Beginning of PI -->
+	<h3>Postdoctoral Researchers</h3>
+	<hr style="border-top: 1px solid #8c8b8b; max-width: 100%!important;"><br>
+	<div class="row">
+	{% for member in site.members %}
+	{% if member.status == 'pi' %}
+	<div class="col-md-3 col-sm-6 member-block">
+		<center><div class= "pop-block" title="<h2>{{ member.title }} </h2> <br> {{member.degrees}}" data-toggle="popover" data-container="body" tabindex="0" data-placement = "bottom"  data-content="<b>Research Focus:</b><br> {{member.description}} <br><br> <b>Something About Me:</b> <br> {{member.about_me}}">
+		            <center>
+		            	{% if member.img  %}
+						<img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+						{% else %}
+						<img src="{{ site.generic_image | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+						{% endif %}
+		            </center>
+		</div></center>
+<br>
+	<div class= "member-spacer">
+	    <b> {{ member.title }} </b> 
+	    <small>{{ member.program }} | since {{ member.year_start }} </small>
+	</div>
+	</div>
+	{% endif %}
+	{% endfor %}
+	</div>
+	<!-- End of PI -->
+	
+	
 	<!-- Beginning of Post-doc -->
 	<h3>Postdoctoral Researchers</h3>
 	<hr style="border-top: 1px solid #8c8b8b; max-width: 100%!important;"><br>
