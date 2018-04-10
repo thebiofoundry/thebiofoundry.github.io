@@ -3,12 +3,12 @@ layout: member
 weight: 1
 title: Vikram G. Yadav
 description: Principal investigator
-img: /img/members/
-degrees :  
+img: /img/members/vgyadav.jpg
+degrees :  >
   Ph.D., Massachusetts Institute of Technology (2013) \n B.A.Sc., University of Waterloo (2007)
 degrees : Principal investigator
-status:  postdoc
-year_end: 
+status:  pi
+year_end: 2014
 year_start: 
 email: vikramaditya.yadav@ubc.com
 description: >
