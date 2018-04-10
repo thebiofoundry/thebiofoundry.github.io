@@ -10,7 +10,7 @@ description: Current members and alumni
 <div class="container">
 	
 	<!-- Beginning of PI -->
-	<h3>Pricipal Investigator</h3>
+	<h3>Principal Investigator</h3>
 	<hr style="border-top: 1px solid #8c8b8b; max-width: 100%!important;"><br>
 	<div class="row">
 	{% for member in site.members %}
