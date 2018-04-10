@@ -1,19 +1,16 @@
 ---
 layout: member
 weight: 100
-title:  Siang Lim
-description: Webguru
-img: 
-program: BASc
+title: Siang Lim
+img: /img/members/siang.jpg
+degrees: BASc. Chemical Engineering
+program: Professional Ramen Taster
+year_start: 2013
+year_end: 2017
 status: undergrad
-year_end: 
-year_start: 2017
-email: siang [at] alumni.ubc.ca
-biography: >
- No one loves Siang except for apsc 160.
-project: >
-  Summer 2017 NSERC USRA project on machine learning and process control.
+description: Computational research, software development
+about_me: Need a website? Let's talk: www.siang.ca
+mail: siang@alumni.ubc.ca
 linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
 homepage: http://www.siang.ca 
-degrees : masters
 ---
