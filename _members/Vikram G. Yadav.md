@@ -8,8 +8,8 @@ degrees :  >
   Ph.D., Massachusetts Institute of Technology (2013) \n B.A.Sc., University of Waterloo (2007)
 degrees : Principal investigator
 status:  pi
-year_end: 2014
-year_start: 
+year_end: 
+year_start: 2014
 email: vikramaditya.yadav@ubc.com
 description: >
   I am an enthusiastic proponent of application-oriented science and knowledge translation for development of low-cost technologies, and my group actively collaborates with local start-ups, industry, academic groups and medical research laboratories. Our work is fostering innovation in a strategic domain for Canada.
