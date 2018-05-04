@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Partnerships</h2>
+                <h2 class="section-heading">Outreach</h2>
                 <hr class="primary">
                 <br />
 
@@ -10,18 +10,18 @@
         </div>
     </div>
     <div class="container">
-        {% for partner in site.partners %}
+        {% for logo in site.outreach %}
 
         <div class="media ">
         <div class="col-lg-4 col-md-4 col-sm-12">
           <div class="media-left ">
-            <a href="{{partner.link}}" target="_blank"><img src="{{ partner.img | prepend: site.baseurl | prepend: site.url }}" class="media-object"></a>
+            <a href="{{logo.link}}" target="_blank"><img src="{{ logo.img | prepend: site.baseurl | prepend: site.url }}" class="media-object"></a>
           </div>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-12">
           <div class="media-body ">
-            <h3 class="media-heading">{{partner.title}}</h3>
-            <p>{{partner.description}}</p>
+            <!-- <h3 class="media-heading">{{logo.title}}</h3> -->
+            <!-- <p>{{logo.description}}</p> -->
           </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title: Research
+title: Creative bioengineering
 description: Innovation does not believe in academic borders. Neither do we! We use insights and methodologies from a variety of scientific and technological domains to meet our objectives.
 ---
 
@@ -10,12 +10,12 @@ description: Innovation does not believe in academic borders. Neither do we! We 
         <div class="row">
             <div class="col-lg-8 col-md-12 text-left">
                 <h2 id = "main-space"><b>The BioFoundry</b></h2>
-                <p>We are a multidisciplinary research group that specializes in the design and development of next-generation, green chemical processes for the manufacture of cleaner fuels, superior medicines and novel materials.</p>
+                <p>The BioFoundry at UBC utilizes metabolic &amp; enzyme engineering to investigate and customize novel biosynthetic enzymes that can convert biomass-derived feedstocks into better fuels, pharmaceuticals and value-added chemicals. We also extend these principles to the design and development of unique bioremediation strategies to rehabilitate the water quality in and around industrial zones and new mining technologies. In addition to green engineering, the BioFoundry also pursues medical biotechnology research, and we are working extensively on infectious disease drug discovery, drug delivery and tissue engineering.</p>
                 <div id="responsive">
                     <img src="/img/research/research_overview.jpg" class="img-responsive">
                 </div>
                 <br>
-                <p id="responsive-para"><b>The BioFoundry at the University of British Columbia</b> is a multidisciplinary research group that specialises in the development of green and sustainable chemical manufacturing processes and novel environmental remediation strategies. Our research group is at the forefront of innovation in a strategic domain for Canada and British Columbia. We utilise cutting-edge tools and technogloies to preicsely modulate and control the metabolic networks of microoganisms to produce cleaner fuels and more efficcacious drugs, as well as mop up pollution from the environment.</p>
+                <p id="responsive-para"><b> Prof. Yadav </b> is an enthusiastic proponent of application-oriented science and knowledge translation for development of low-cost technologies, and the BioFoundry actively collaborates with local start-ups, industry, academic groups and medical research laboratories. Our work is fostering innovation in a strategic domain for Canada.</p>
             </div>
             <div class="col-lg-4 col-md-12 text-left research-large">
                 <img class="img-responsive" src="/img/sustainable-ideas.jpg" >
