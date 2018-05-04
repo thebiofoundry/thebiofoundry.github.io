@@ -36,7 +36,7 @@ description: Innovation does not believe in academic borders. Neither do we! We 
                 </p>
             {% endif %}    
             <!-- </p> -->
-            <h3>Office Hours:</h3> <p style="padding-left: 1em;">{{teaching.office_time}}</p>
+            <h3>Office Hours:</h3> <p style="padding-left: 1em;">{{teaching.office_hours}}</p>
           </div>            
     </div>
     {% endif %}

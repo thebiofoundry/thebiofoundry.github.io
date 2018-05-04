@@ -5,10 +5,11 @@ description: >
   Kinetics of homogeneous chemical and biological reactions, isothermal ideal reactor design, analysis of non-ideal reactors using residence time distribution and mixing models.
 status: active
 days: 
- - key: "  Monday: 4:00-5:30pm"
- - key: "  Thursday: 2:00-4:30pm"
+ - key: "  Tbd."
+ - key: "  Tbd."
 tutorial: >
- Wednesday 10:00-11:00am
+ Tbd.
  
 office_hours: 
+ Tbd.
 ---
