@@ -6,7 +6,7 @@ description: The BioFoundry is a young, dynamic and growing research group. If y
 ---
 
 # Email
-Please reach out to us by email. If you're interested in Graduate Studies, Internships or Post-doctoral research positions, kindly upload a copy of your CV as a PDF or Word file:
+Please reach out to us by email. If you're interested in graduate studies, internships or post-doctoral research positions, kindly upload a copy of your CV as a PDF or Word file:
 <a href="mailto:vikramaditya.yadav@ubc.ca">vikramaditya.yadav@ubc.ca</a>
 
 # Links
