@@ -1,5 +1,5 @@
 ---
-course-code: CHBE 455
+course-code: CHBE 355
 course-title: Chemical Kinetics & Reactor Design
 description: >
   The course covers fundamental concepts involved in the sizing and operation of batch, semibatch, continuous, plug flow and packed bed reactors. An analytical approach based on first principles is emphasized. The course is divided into 4 modules. The first module comprises introductory principles such as mole balances, stoichiometry, rate laws, thermochemistry, chemical equilibrium and derivation of rate laws. The second module introduces the different types of ideal reactors and instructs students about sizing reactors using concentrations and conversions. The third module introduces students to enzyme catalysis and elementary bioprocess engineering. The fourth module covers non-ideal reactor design and chiefly focuses on steady-state non-isothermal reactors and residence time distributions. Topics such as heat and mass transfer are also reviewed.
