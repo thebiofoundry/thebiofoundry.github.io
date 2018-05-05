@@ -7,8 +7,14 @@ long_desc:
   The second project seeks to attenuate the disease-carrying capacity of the mosquito to spread disease by targeting its sense of smell. We are engineering the mosquito olfactory cascade into microbial hosts in order to screen behaviour-modifying compounds in a high-throughput manner.
   <br><br>
   We are also an important player in the nascent organ bioprinting community at the University of British Columbia. Prof. Yadav is one of the lead organizers of the annual ‘Printing the Future of Therapeutics in 3D’ roundtable at UBC. The event draws on leading practitioners from academia, industry and clinics and serves as the premier forum to ideate on technological trends in the field.
+  <br>
 modal_image: /img/research/HT drug discovery.jpg
 front_image: /img/research/HT drug discovery.jpg
+
+rel_link: https://bit.ly/2p9wpWs
+rel_linktxt: Organ printing holds promise for better healthcare, cheaper drugs
+rel_link2:
+rel_linktxt2:
 ---
 
   #image after first line break

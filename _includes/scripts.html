@@ -52,9 +52,9 @@
 <script type="text/javascript">
     var para = document.getElementById('responsive');
     var responsive_para = document.getElementById('responsive-para');
+    var related_link_para = document.getElementById('related_links');
     
-    
-    function loadData (desc,image){
+    function loadData (desc,image,rel_link1,rel_linktxt1,rel_link2,rel_linktxt2  ){
         if (image === undefined){
           para.innerHTML = '';
           responsive_para.innerHTML = desc;
@@ -70,5 +70,24 @@
 
           responsive_para.innerHTML = desc;
         }
+        if(rel_link1===undefined){
+        } else{
+            related_link_para.innerHTML="Related Links: <br><br>"
+            var link_elem = document.createElement("a");
+            link_elem.setAttribute("href",rel_link1);
+            link_elem.innerHTML = rel_linktxt1;
+            related_link_para.appendChild(link_elem);
+        }
+        if(rel_link2===undefined){
+        } else{
+            var linebreak = document.createElement("p");
+            related_link_para.appendChild(linebreak);
+            var link_elem2 = document.createElement("a");
+            link_elem2.setAttribute("href",rel_link2);
+            link_elem2.innerHTML = rel_linktxt2;
+            related_link_para.appendChild(link_elem2);
+        }
+
+
     }
 </script>

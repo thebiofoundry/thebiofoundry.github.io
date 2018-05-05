@@ -9,11 +9,13 @@ long_desc:
      Similarly, we are developing innovative cyclic bioprocesses that utilize waste streams from chemical manufacturing processes as inputs to produce performance chemicals that valorize existing products or can be sold as value-added products themselves. We are currently demonstrating this concept by harnessing the metagenome of pulp and paper sludge to synthesize polymers for the production of performance paper.  
     <br><br> 
      We are also actively working on developing novel genetic circuits to bridge macroscopic bioprocess control with intracellular control of metabolism. These methods can deliver significant improvements in productivity.  
-    <br><br>
-      Local innovation aims to make mining cleaner  
-    <br><br>  3MT presentation by group member Anupama Sharan
+    <br>
 modal_image: /img/research/better_bioprocesses.jpg
 front_image: /img/research/better_bioprocesses.jpg
+rel_link: https://www.youtube.com/watch?v=lKBiNCKVXPw
+rel_linktxt: 3MT presentation by group member Anupama Sharan
+rel_link2: https://bit.ly/2p9WdRX
+rel_linktxt2: Local innovation aims to make mining cleaner  
 ---
 # <a href=  "https://bit.ly/2p9WdRX"> Relative link:&nbsp</a> 
  # <a href=  "https://www.youtube.com/watch?v=lKBiNCKVXPw"> Relative link:&nbsp</a> 
