@@ -1,6 +1,6 @@
 ---
 title: Technoeconomics
-description: The study of value added products to optimize existing chemical processes
+description: We’re developing methodologies to assess and improve the economic potential of biotechnology 
 long_desc:
   We actively research and develop mechanisms for translating our work on the development of advanced bioprocesses for the production of value-added molecules to industry, and we achieve this objective through technoeconomic assessments. One of most recent contributions to technoeconomics has been the formulation of a metric
   <br>

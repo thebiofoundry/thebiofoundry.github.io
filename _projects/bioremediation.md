@@ -1,6 +1,6 @@
 ---
 title: Bioremediation
-description: The creation of highly specialized medication by utilizing bio-informatics and genetic engineering
+description: We’re  applying  bioengineering  to  sustain  the  health  of  the  planet 
 long_desc: 
     The Government of Alberta estimates the total acreage of oil sands tailings ponds to be as high as 77 square kilometers. Although these ponds provide considerable benefit by promoting water reuse and withholding the release of toxic organic compounds such as naphthenic acids, there is a critical need to rehabilitate the land and treat all remaining water. The key challenge for treating naphthenic acids is the sheer volume of tailing ponds and the dilute, yet highly toxic nature of the contaminants.
     <br><br>

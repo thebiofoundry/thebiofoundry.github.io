@@ -2,7 +2,13 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Innovation does not believe in academic borders. Neither do we! We use insights and methodologies from a variety of scientific and technological domains to meet our objectives.
+description:        A teacher, much like a football coach, must <b>appeal</b> 
+                    to the sensibilities of his or her students. He must <b>instill</b> 
+                    in them the spirit of <b>achieving</b> the impossible while keeping their 
+                    feet firmly grounded in fundamentals. I was <b>fortunate</b> to have been instructed
+                     by excellent teachers. My approach to teaching has been inspired by these great 
+                     individuals and I <b>hope</b> to pass on the favor to a <b>new</b> generation of
+                      chemical engineers.
 ---
 
 <section id="why">

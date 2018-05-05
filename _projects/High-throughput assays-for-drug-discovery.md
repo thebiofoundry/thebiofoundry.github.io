@@ -1,6 +1,6 @@
 ---
 title: High-throughput assays for drug discovery
-description: The development of novel assays for the most prevalent diseases of today
+description: We’re developing better platforms to pick efficacious pharmaceutical products   
 long_desc:
   Our work on bioengineered assays is currently centred on two domains. The first project, undertaken in Our work on bioengineered assays is currently centred on two domains. The first project, undertaken in collaboration with STEMCELL Technologies and Precision NanoSystems, seeks to assemble three-dimensional, structured brain organoids from human induced pluripotent stem cells for use in pre-clinical screening of hits against neurodegenerative diseases. 
   <br><br>

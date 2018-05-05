@@ -1,6 +1,6 @@
 ---
 title: Engineering novel &amp; and better bioprocesses
-description: The creation of highly specialized medication by utilizing bio-informatics and genetic engineering
+description: We’re re-inventing the way we extract and valorize resources   
 long_desc: 
     A warming world, the threat of epidemics, our rapidly declining drug stocks, and the inefficiency of current manufacturing processes have forced the industry to reconfigure its operations along the principles of Green Chemistry & Engineering. The new paradigm emphasizes improvements in the atom and energy efficiencies, and the environmental footprint of manufacturing processes by minimizing the generation of waste, eliminating the use of toxic reagents and solvents, utilizing renewable feedstocks, designing biodegradable products, and designing processes that minimize the likelihood of accidents. To this end, we are exploiting the immense ease and efficiency with which biological systems metabolize feedstocks to extract natural resources or produce value-added chemicals and materials to design and develop replacements for traditional chemical manufacturing processes. 
     <br><br>

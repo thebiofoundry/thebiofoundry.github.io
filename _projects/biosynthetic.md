@@ -1,6 +1,6 @@
 ---
 title: Biosynthetic &amp; enzyme engineering 
-description: The creation of highly specialized medication by utilizing bio-informatics and genetic engineering
+description: We’re constantly learning from the master chemist – Nature – and using our lessons to synthesize useful molecules   
 long_desc: 
   Synthetic biology and metabolic engineering are principal activities in the lab and we are actively working on fundamental and applied problems in terpenoid and polyketide biosynthesis and lignin valorization. We employ a combination of metagenomics-aided enzyme discovery, rational enzyme engineering, and pathway and genome engineering strategies to engineer strains that produce value-added molecules at higher titres and productivities, and actively collaborate with companies such as Phytonix Corporation (www.phytonix.com) and Reliance Industries Limited (www.ril.com) to commercialize these biotechnologies. 
   <br><br>
