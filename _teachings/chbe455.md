@@ -12,4 +12,6 @@ tutorial: >
  
 office_hours: 
  Tbd.
+course_out: CHBE 355 (pdf)
+course_href: /pdf/CHBE-355-syllabus.pdf 
 ---

@@ -9,4 +9,6 @@ days:
   - key: Tues-Thur. 9:30-11:00
 office_hours: >
   Thurs. 11:30-12:30
+course_out: CHBE 550 (pdf)  
+course_href: /pdf/CHBE-550-syllabus.pdf 
 ---

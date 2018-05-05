@@ -22,21 +22,25 @@ description: Innovation does not believe in academic borders. Neither do we! We 
             <p>{{teaching.description}}</p>
         </div>
         <div class="col-lg-4 col-md-12 text-left">
-            <h3>Lectures:</h3>
+            <!-- Uncomment below text when classes have determinedlecture hours and office hours  -->
+            <!-- <h3>Lectures:</h3> -->
             <!-- <p> -->
-                {% for day in teaching.days %}
+                <!-- {% for day in teaching.days %}
                 <p style="padding-left: 1em;">
                     {{ day.key }}
                 </p>
-                {% endfor %}
-            {% if teaching.tutorial %}    
+                {% endfor %} -->
+            <!-- {% if teaching.tutorial %}    
             <h3>Tutorials:</h3>
                 <p style="padding-left: 1em;">
                     {{teaching.tutorial}}
                 </p>
-            {% endif %}    
+            {% endif %}     -->
             <!-- </p> -->
-            <h3>Office Hours:</h3> <p style="padding-left: 1em;">{{teaching.office_hours}}</p>
+            <!-- <h3>Office Hours:</h3> <p style="padding-left: 1em;">{{teaching.office_hours}}</p> -->
+            <h3> Course Outline</h3>
+            <a href="{{ teaching.course_href | prepend: site.baseurl | prepend: site.url }}" target="_blank">{{teaching.course_out}}</a>
+            
           </div>            
     </div>
     {% endif %}
