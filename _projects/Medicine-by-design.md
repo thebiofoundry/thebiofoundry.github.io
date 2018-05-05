@@ -7,6 +7,10 @@ long_desc:
   <br><br>
 modal_image: /img/research/medicine_design.jpg
 front_image: /img/research/medicine_design.jpg
+rel_link: https://news.ubc.ca/2018/04/11/new-glaucoma-treatment-could-ease-symptoms-while-you-sleep/
+rel_linktxt: Glaucoma treatment could ease symptoms while you sleep
+rel_link2:
+rel_linktxt2:
 ---
 #image after first line break
 ## Related news: https://news.ubc.ca/2018/04/11/new-glaucoma-treatment-could-ease-symptoms-while-you-sleep/

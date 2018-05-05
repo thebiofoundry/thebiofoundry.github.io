@@ -64,13 +64,17 @@
           image_elem.setAttribute("class","img-responsive");
           image_elem.setAttribute("id","research-id");
           image_elem.setAttribute("src",image);
-
+          
           para.innerHTML = '';
           para.appendChild(image_elem);
 
           responsive_para.innerHTML = desc;
         }
+        
         if(rel_link1===undefined){
+                while(related_link_para.firstChild){
+                related_link_para.removeChild(related_link_para.firstChild);
+            }
         } else{
             related_link_para.innerHTML="Related Links: <br><br>"
             var link_elem = document.createElement("a");

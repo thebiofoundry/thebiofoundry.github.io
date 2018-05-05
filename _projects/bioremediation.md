@@ -8,11 +8,13 @@ long_desc:
     <br><br> 
      Our passive, in-pond biological approach requiring limited infrastructure, allows operators to cost-effectively treat the toxicity and ensure appropriate rehabilitation of the site. The microbial solution is designed to be tightly correlated with naphthenic acid concentration, ensuring no introduction of foreign microbes into the environment.
     <br>
-    <br> 
-    Related news:&nbsp;
-    A suicidal solution
+    
 modal_image: /img/research/Bioremediation.jpg
 front_image: /img/research/Bioremediation.jpg
+rel_link: https://bit.ly/2p9WdRX
+rel_linktxt: Local innovation aims to make mining cleaner
+rel_link2:
+rel_linktxt2:
 ---
 # <a href=  "https://bit.ly/2p9WdRX"> Relative link:&nbsp</a> 
  # <a href=  "https://www.youtube.com/watch?v=lKBiNCKVXPw"> Relative link:&nbsp</a> 

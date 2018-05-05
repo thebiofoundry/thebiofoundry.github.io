@@ -10,4 +10,8 @@ long_desc:
 
 modal_image: /img/research/Technoeconomics.jpg
 front_image: /img/research/Technoeconomics.jpg
+rel_link:
+rel_linktxt:
+rel_link2:
+rel_linktxt2:
 ---
