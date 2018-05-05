@@ -11,11 +11,7 @@ days:
   ##- key: Tues-Thur. 9:30-11:00
   -key: To be Determined
 office_hours: >
-<<<<<<< HEAD
   Thurs. 11:30-12:30
 course_out: CHBE 550 (pdf)  
 course_href: /pdf/CHBE-550-syllabus.pdf 
-=======
-  To be determined
->>>>>>> e2d1d9e352cf00189c72f4f888d4ec64a80d671a
 ---

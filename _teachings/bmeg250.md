@@ -11,11 +11,7 @@ days:
 # - key: Tues-Thur. 9:30-11:00
 
 office_hours: >
-<<<<<<< HEAD
  Tbd.
 course_out: BMEG 250 (pdf)
 course_href: /pdf/BMEG-250-syllabus.pdf 
-=======
- To be Determined. 
->>>>>>> e2d1d9e352cf00189c72f4f888d4ec64a80d671a
 ---

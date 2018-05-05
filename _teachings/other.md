@@ -1,8 +1,8 @@
 ---
 course-code: Other Courses   
-course-title:  Prof. Yadav has also taught APSC 100 and APSC 101, and modules within CHBE 243 and CHBE 381.
+course-title:  
 description: >
- 
+ Prof. Yadav has also taught APSC 100 and APSC 101, and modules within CHBE 243 and CHBE 381.
 status: active
 days: 
   - key: 
