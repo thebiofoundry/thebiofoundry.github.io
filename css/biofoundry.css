@@ -10,5 +10,9 @@
 }
 
 #maintext-front{
-	font-size: 2.7em;
+	font-size: 2.7em !important;
+}
+
+#protein-front{
+	padding-top: 18%;
 }
