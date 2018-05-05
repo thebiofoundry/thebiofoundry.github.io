@@ -13,5 +13,7 @@ tutorial: >
  To be Determined.
  
 office_hours: 
- To be Determined.
+ Tbd.
+course_out: CHBE 355 (pdf)
+course_href: /pdf/CHBE-355-syllabus.pdf 
 ---
