@@ -1,15 +1,10 @@
 ---
 layout: member
-weight: 100
+weight: 200
 title: Ngai To Lo
-description: Developing low-cost instrumentation for biological experimentation
-img: /img/members/ito.jpg
-program: B.A.Sc. candidate
 status: undergrad
-year_end: 
-year_start: 2017
-about_me: “I am a God at PUBG.” 
-email: ngai_to_lo@hotmail.com
-linkedin: 
-homepage: 
+program: Member-at-large 
+description: Development of low-cost instrumentation for biological experimentation
+img: /img/members/ito.jpg
+featuredOrder: 4
 ---

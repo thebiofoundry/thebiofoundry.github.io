@@ -2,6 +2,16 @@
 layout: member
 weight: 200
 title: Daniel Korvin
+status: grad
+program: MASc candidate
+description: Design of genetic circuits for improving strain performance in industrial bioprocesses 
+img: /img/members/Daniel-Korvin.jpg
+featuredOrder: 3
+---
+---
+layout: member
+weight: 200
+title: Daniel Korvin
 img: /img/members/dan-photo.jpg
 degrees: B. Sc. in Microbiology & Immunology, University of British Columbia
 program: M.A.Sc. candidate
@@ -14,3 +24,4 @@ mail: 91dkorv@gmail.com
 linkedin: 
 homepage:
 ---
+

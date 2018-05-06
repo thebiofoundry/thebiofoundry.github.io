@@ -1,16 +1,10 @@
 ---
 layout: member
-weight: 100
+weight: 200
 title: Siang Lim
-img: /img/members/siang.jpg
-degrees: BASc Chemical Engineering '17
-program: Professional Ramen Taster
-year_start: 2017
-year_end: 
 status: undergrad
-description: Computational research, software development
-about_me: Need a website? Let's talk.
-mail: siang@alumni.ubc.ca
-linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
-homepage: http://www.siang.ca
+program: Member-at-large 
+description: Web guru and troublemaker
+img: /img/members/siang.jpg
+featuredOrder: 4
 ---
