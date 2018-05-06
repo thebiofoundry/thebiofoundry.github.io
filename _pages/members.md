@@ -33,11 +33,7 @@ description: Current members and alumni
 	</div>
 	{% endif %}
 	{% endfor %}
-	</div>
-	<!-- End of PI -->
-	
-	
-	<!-- Beginning of Post-doc -->
+	</div>	
 	<h3>Postdoctoral Researchers</h3>
 	<hr><br>
 	<div class="row">
@@ -98,27 +94,51 @@ description: Current members and alumni
 	{% if member.status == 'undergrad' %}
 	<div class="col-md-3 col-sm-6 member-block">
 		<div class= "pop-block" title="<h2>{{ member.title }} </h2> <br> {{member.degrees}}" data-toggle="popover" data-container="body" tabindex="0" data-placement = "bottom"  data-content="<b>Research Focus:</b><br> {{member.description}} <br><br> <b>Something About Me:</b> <br> {{member.about_me}}">
-		            <center>
-		            	{% if member.img %}
-						<img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
-						{% else %}
-						<img src="{{ site.generic_image | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
-						{% endif %}
-		            </center>
+	    <center>
+	    	{% if member.img %}
+			<img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+			{% else %}
+			<img src="{{ site.generic_image | prepend: site.baseurl | prepend: site.url }}" class = "member-img">
+			{% endif %}
+	    </center>
 		</div>
-		            <br>
-		            <div class= "member-spacer">
-			            <b> {{ member.title }} </b> 
-			            <small>{{ member.program }} | since {{ member.year_start }} </small>
-		            </div>
+        <br>
+        <div class= "member-spacer">
+            <b> {{ member.title }} </b> 
+            <small>{{ member.program }} | since {{ member.year_start }} </small>
+        </div>
 	</div>
 	{% endif %}
 	{% endfor %}
 	</div>
 	<!-- End of Undergrad -->
+
+<h3>Alumni</h3>
+<hr><br>
+<div class="row">
+	<div class="col-md-12 col-sm-12 member-block">
+	<table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Current Position</th>
+      </tr>
+    </thead>
+    <tbody>
+    	{% for member in site.members %}
+		{% if member.status == 'alumni' %}
+	      <tr>
+	        <td>{{member.title}}</td>
+	        <td>{{member.alumni_position}}</td>
+	      </tr>
+    	{% endif %}
+		{% endfor %}
+	    </tbody>
+	  </table>
+	</div>
 </div>
 
-
+</div>
 
 <br>
 

@@ -6,7 +6,7 @@ description: >
   Post-doctoral Fellow, Biomaterials
 img: /img/members/maryam-photo.jpg
 program: BASc
-status: grad
+status: alumni
 year_end: 
 year_start: 2017
 email: siang [at] alumni.ubc.ca
@@ -17,4 +17,5 @@ project: >
 linkedin: https://www.linkedin.com/in/c-siang-lim-98535048
 homepage: http://www.siang.ca 
 degrees : masters
+alumni_position: Business Development Lead, Zymeworks
 ---
