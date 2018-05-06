@@ -6,7 +6,7 @@ description: Principal investigator
 img: /img/members/vgyadav.jpg
 degrees :  >
   Ph.D., Massachusetts Institute of Technology (2013) \n B.A.Sc., University of Waterloo (2007)
-degrees : Principal investigator
+program : Principal investigator
 status:  pi
 year_end: 
 year_start: 2014

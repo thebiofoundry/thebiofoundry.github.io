@@ -1,0 +1,54 @@
+{% if member.img  %}
+{% capture member_img %}
+{{ member.img | prepend: site.baseurl | prepend: site.url }}
+{% endcapture %}
+{% else %}
+{% capture member_img %}
+{{ site.generic_image | prepend: site.baseurl | prepend: site.url }}
+{% endcapture %}
+{% endif %}
+
+<div class="col-md-3 col-sm-6 member-block">
+  <!-- Modal -->
+  <div class="modal fade" id="{{member.status}}_{{counter}}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+      <div class="media">
+        <div class="media-left">
+          <img src="{{member_img}}" class="media-object" style="width:60px">
+        </div>
+        <div class="media-body">
+          <h3 class="media-heading">{{member.title}}</h3>
+          <h5>{{member.program}}</h5>
+        </div>
+      </div>        
+        </div>
+        <div class="modal-body">
+          <p class="text-muted">{{member.description}}</p>
+          {% if member.homepage %}
+          <p>
+            <a href="{{member.homepage}}" class="btn btn-sm btn-default"><i class="fa fa-home">Website</i></a>
+          </p>
+          {% endif %}
+        </div>
+        <div class="modal-footer">
+          <h5><b>The BioFoundry Team</b></h5>
+          {% if member.homepage %}
+          <h5><i class="fa fa-envelope"></i>&nbsp;{{member.email}}</h5>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class= "pop-block" data-toggle="modal" data-target="#{{member.status}}_{{counter}}">
+  <center>
+    <img src="{{member_img}}" class = "member-img">
+  </center>
+  </div>
+  <br>
+  <div class= "member-spacer">
+    <b> {{ member.title }} </b> 
+      <small>{{ member.program }}</small>
+  </div>
+</div>
