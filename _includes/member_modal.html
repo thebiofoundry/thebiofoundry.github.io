@@ -26,17 +26,22 @@
         </div>
         <div class="modal-body">
           <p class="text-muted">{{member.description}}</p>
-          {% if member.homepage %}
+          
           <p>
-            <a href="{{member.homepage}}" class="btn btn-sm btn-default"><i class="fa fa-home">Website</i></a>
+            {% if member.homepage %}
+            <a href="{{member.homepage}}" target="_blank" class="btn btn-sm btn-default"><i class="fa fa-home">&nbsp;Website</i></a>
+            {% endif %}
+            {% if member.linkedin %}
+            <a href="{{member.linkedin}}" target="_blank" class="btn btn-sm btn-default"><i class="fa fa-linkedin">&nbsp;Linkedin</i></a>
+            {% endif %}            
           </p>
-          {% endif %}
+          
         </div>
         <div class="modal-footer">
-          <h5><b>The BioFoundry Team</b></h5>
           {% if member.homepage %}
           <h5><i class="fa fa-envelope"></i>&nbsp;{{member.email}}</h5>
-          {% endif %}
+          {% endif %}          
+          <h5><b>The BioFoundry Team</b></h5><button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
       </div>
     </div>
