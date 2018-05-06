@@ -2,12 +2,12 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description:        A teacher, much like a football coach, must <b>appeal</b> 
-                    to the sensibilities of his or her students. He must <b>instill</b> 
-                    in them the spirit of <b>achieving</b> the impossible while keeping their 
-                    feet firmly grounded in fundamentals. I was <b>fortunate</b> to have been instructed
+description:        A teacher, much like a football coach, must appeal 
+                    to the sensibilities of his or her students. He must instill 
+                    in them the spirit of achieving the impossible while keeping their 
+                    feet firmly grounded in fundamentals. I was fortunate to have been instructed
                      by excellent teachers. My approach to teaching has been inspired by these great 
-                     individuals and I <b>hope</b> to pass on the favor to a <b>new</b> generation of
+                     individuals and I hope to pass on the favor to a new generation of
                       chemical engineers.
 ---
 
