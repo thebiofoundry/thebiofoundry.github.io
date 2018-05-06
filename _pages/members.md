@@ -11,7 +11,7 @@ description: Current BioFoundry team members and alumni
 	<hr><br>
 	<div class="row">
 	{% assign counter = 0 %}
-	{% assign members = site.members | where: "status", "pi" %}
+	{% assign members = site.members | where: "status", "pi" | sort: "featuredOrder" %}
 	{% for member in members %}
 		{% include member_modal.html member=member counter=counter%}
 	{% assign counter=counter | plus:1  %}
@@ -22,7 +22,7 @@ description: Current BioFoundry team members and alumni
 	<hr><br>
 	<div class="row">
 	{% assign counter = 0 %}
-	{% assign members = site.members | where: "status", "postdoc" %}
+	{% assign members = site.members | where: "status", "postdoc" | sort: "featuredOrder" %}
 	{% for member in members %}
 		{% include member_modal.html member=member counter=counter%}
 	{% assign counter=counter | plus:1  %}
@@ -34,7 +34,7 @@ description: Current BioFoundry team members and alumni
 	<hr><br>
 	<div class="row">
 	{% assign counter = 0 %}
-	{% assign members = site.members | where: "status", "grad" %}
+	{% assign members = site.members | where: "status", "grad" | sort: "featuredOrder" %}
 	{% for member in members %}
 		{% include member_modal.html member=member counter=counter%}
 	{% assign counter=counter | plus:1  %}
@@ -46,7 +46,7 @@ description: Current BioFoundry team members and alumni
 	<hr><br>
 	<div class="row">
 	{% assign counter = 0 %}
-	{% assign members = site.members | where: "status", "undergrad" %}
+	{% assign members = site.members | where: "status", "undergrad" | sort: "featuredOrder" %}
 	{% for member in members %}
 		{% include member_modal.html member=member counter=counter%}
 	{% assign counter=counter | plus:1  %}
@@ -56,8 +56,8 @@ description: Current BioFoundry team members and alumni
 	<h3>Alumni</h3>
 	<hr><br>
 	<div class="row">
-		<div class="col-md-12 col-sm-12 member-block">
-		<table class="table">
+		<div class="col-md-12 col-sm-12">
+		<table class="table table-responsive">
 	    <thead>
 	      <tr>
 	        <th>Name</th>
