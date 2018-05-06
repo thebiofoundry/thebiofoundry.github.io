@@ -19,12 +19,12 @@ disqus_account:
 social:
   - title: twitter
     url: http://twitter.com/biofoundry
-  - title: facebook
+  - title: facebook-f
     url: https://www.facebook.com/biofoundry
   - title: google-plus
     url: http://plus.google.com/u/0/b/118283831844760263482/118283831844760263482
-  #- title: github
-  #  url: http://github.com/jekyll
+  - title: github
+    url: https://github.com/thebiofoundry
 
 # Build settings
 markdown: kramdown

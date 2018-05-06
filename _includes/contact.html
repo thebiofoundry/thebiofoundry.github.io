@@ -1,20 +1,23 @@
 
-<section id="contact" class="contact bg-primary">
+<section id="contact" class="bg-primary">
     <div class="container">
         <h3>Connect with the BioFoundry</h3>
         <br>
-        <ul class="list-inline list-social">
+        <ul class="list-inline social-icons">
             {% for network in site.social %}
             <li class="social-{{ network.title }}">
-                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                <a href="{{ network.url }}" class="btn-social"><i class="fa fa-2x fa-fw fa-{{ network.title }}"></i></a>
             </li>
         {% endfor %}
         </ul>
+        <br>
+        <p><i class="fa fa-fw fa-envelope"></i>&nbsp;vikramaditya.yadav@ubc.ca</a>
+</p>
     </div>
 </section>
 <footer>
     <div class="container text-left">
-        <p><b>The BioFoundry</b>: Research Group of Prof. Vikramaditya G. Yadav. &copy; 2017-2018, All Rights Reserved.</p>
+        <p><b>The BioFoundry</b>: Research Group of Prof. Vikramaditya G. Yadav.</p>
         <br>
         <p>
             Department of Chemical &amp; Biological Engineering<br>
@@ -23,6 +26,8 @@
             Tel 604 827 3170<br>
         </p>
         <hr>
+        <p><i>Visit our website at <a href="http://www.biofoundry.ca">www.biofoundry.ca</a></i></p>
+        <b>The BioFoundry Team &copy; 2017-2018, All Rights Reserved.</b>
         
     </div>
 </footer>

@@ -16,3 +16,18 @@
 #protein-front{
 	padding-top: 18%;
 }
+
+.social-icons a{
+	color: white;
+}
+
+hr {
+	border-top: 1px solid #8c8b8b; 
+	max-width: 100% !important;
+}
+
+.publication-anchors{
+	font-weight: 800;
+	padding-top: 80px; 
+	margin-top: -80px;
+}

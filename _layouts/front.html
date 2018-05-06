@@ -7,10 +7,22 @@
   {% include nav.html %}
   {% include header.html %}
   
-  {% include credo.html %}
+  <section id="features" class="features">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2>Our credo is</h2>
+                  <div class="section-heading">
+                      <h2>{{page.credo_main}}</h2>
+                      <h3><b>{{page.credo_sub}}</b></h3>
+                      <p class="text-muted">{{page.credo_desc}}</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
   <section id="portfolio" class="download bg-primary text-center no-padding ">
   {% include research.html %}
-   <!-- include outreach.html  // add liquid tags here to enable outreach -->
   </section>
   {% include teaching.html %}
   {% include contact.html %}

@@ -11,7 +11,7 @@ description: Current members and alumni
 	
 	<!-- Beginning of PI -->
 	<h3>Principal Investigator</h3>
-	<hr style="border-top: 1px solid #8c8b8b; max-width: 100%!important;"><br>
+	<hr><br>
 	<div class="row">
 	{% for member in site.members %}
 	{% if member.status == 'pi' %}
@@ -39,7 +39,7 @@ description: Current members and alumni
 	
 	<!-- Beginning of Post-doc -->
 	<h3>Postdoctoral Researchers</h3>
-	<hr style="border-top: 1px solid #8c8b8b; max-width: 100%!important;"><br>
+	<hr><br>
 	<div class="row">
 	{% for member in site.members %}
 	{% if member.status == 'postdoc' %}
@@ -65,7 +65,7 @@ description: Current members and alumni
 	<!-- End of Post-doc -->
 	<!-- Beginning of Grad -->
 	<h3>Graduate Students</h3>
-	<hr style="border-top: 1px solid #8c8b8b; max-width: 100%!important;"><br>
+	<hr><br>
 	<div class="row">
 	{% for member in site.members %}
 	{% if member.status == 'grad' %}
@@ -92,7 +92,7 @@ description: Current members and alumni
 <!-- Undergraduate line -->
 
 <h3>Undergraduate Students</h3>
-<hr style="border-top: 1px solid #8c8b8b; max-width: 100%!important;"><br>
+<hr><br>
 <div class="row">
 	{% for member in site.members %}
 	{% if member.status == 'undergrad' %}
