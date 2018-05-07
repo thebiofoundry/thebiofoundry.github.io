@@ -2,7 +2,7 @@
 layout: simple
 permalink: /publications/
 title: Publications
-description: Innovation does not believe in academic borders. Neither do we! We use insights and methodologies from a variety of scientific and technological domains to meet our objectives.
+description: 
 ---
 
 <div class="col-lg-8 col-md-12 text-left">
