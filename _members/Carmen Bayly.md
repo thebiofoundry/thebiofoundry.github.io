@@ -6,5 +6,5 @@ status: grad
 program: PhD candidate
 description: Enzyme and metabolic engineering for the synthesis of pharmaceuticals and other value-added molecules
 img: /img/members/Carmen-Bayly.jpg
-featuredOrder: 3
+featuredOrder: 1
 ---

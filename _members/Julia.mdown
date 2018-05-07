@@ -7,5 +7,5 @@ program: PhD candidate
 description:
  Constructing a biosensor based on the mosquito olfactory system to screen for new repellants
 img: /img/members/Julia-Varela.jpg
-featuredOrder: 3
+featuredOrder: 1
 ---

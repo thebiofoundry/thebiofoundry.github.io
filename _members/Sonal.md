@@ -7,5 +7,5 @@ program: PhD candidate
 description: 
  Engineering plant metabolic pathways in heterologous hosts and studying biochemical mechanisms that control flux
 img: /img/members/Sonal-Ayakar.jpg
-featuredOrder: 3
+featuredOrder: 1
 ---

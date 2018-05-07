@@ -6,5 +6,5 @@ status: grad
 program: PhD candidate
 description: Construction of genetic switches for biocontainment, and environmental engineering
 img: /img/members/Parisa-Chegounian.jpg
-featuredOrder: 3
+featuredOrder: 1
 ---
