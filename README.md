@@ -5,6 +5,9 @@
 # Site
 Website available at [www.biofoundry.ca](http://www.biofoundry.ca).
 
+# Copyright
+All images and content on this website are intellectual properties of [Vikramaditya G. Yadav](mailto:vikramaditya.yadav@ubc.ca). Any reproduction without a citation is prohibited. 
+
 ---
 Info:
 
