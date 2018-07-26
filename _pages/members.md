@@ -61,6 +61,7 @@ description: Current BioFoundry team members and alumni
 	    <thead>
 	      <tr>
 	        <th>Name</th>
+	        <th>Degree completed</th>
 	        <th>Current Position</th>
 	      </tr>
 	    </thead>
@@ -69,6 +70,7 @@ description: Current BioFoundry team members and alumni
 			{% if member.status == 'alumni' %}
 		      <tr>
 		        <td>{{member.title}}</td>
+		        <td>{{member.degree}}</td>
 		        <td>{{member.alumni_position}}</td>
 		      </tr>
 	    	{% endif %}
